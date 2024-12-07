@@ -72,7 +72,7 @@ const Navbar = () => {
               href="/teachingTech"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Egitim technology
+              Technology
             </a>
             <a
               href="/cosmic-services"
@@ -97,14 +97,14 @@ const Navbar = () => {
               href="/contact"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Turkchasoati
+              Turk tili
             </a>
 
             <a
               href="/contact"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Talaba transfer
+              Transfer
             </a>
           </div>
         </div>
