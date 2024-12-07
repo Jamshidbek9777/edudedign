@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+  list-style: none;
+}
+
+.burger {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 9999;
+}
+
+.burger.open div:nth-child(1) {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.burger.open div:nth-child(2) {
+  opacity: 0;
+}
+.burger.open div:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px);
+}
+
+.carousel-container {
+  padding-top: 200px;
+}
