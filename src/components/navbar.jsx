@@ -78,7 +78,7 @@ const Navbar = () => {
               href="/cosmic-services"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Uzay Hizmatlari
+              Kosmosx
             </a>
             <a
               href="/services"
@@ -94,23 +94,12 @@ const Navbar = () => {
             </a>
 
             <a
-              href="/blog"
-              className="hover:text-red-500 transition text-base font-bold"
-            >
-              Talim modeli
-            </a>
-            <a
               href="/contact"
               className="hover:text-red-500 transition text-base font-bold"
             >
               Turkchasoati
             </a>
-            <a
-              href="/contact"
-              className="hover:text-red-500 transition text-base font-bold"
-            >
-              Kitaplar
-            </a>
+
             <a
               href="/contact"
               className="hover:text-red-500 transition text-base font-bold"

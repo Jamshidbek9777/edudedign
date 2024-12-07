@@ -16,10 +16,10 @@ const Root = () => {
         <BrowserRouter>
           <Navbar />
           <Routes className="min-h-screen">
-            <Route path="/" exact element={<App />} />
-            <Route path="/about" exact element={<About />} />
-            <Route path="/teachingTech" exact element={<TeachingTech />} />
-            <Route path="/cosmic-services" exact element={<CosmicServices />} />
+            <Route path="/" element={<App />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/teachingTech" element={<TeachingTech />} />
+            <Route path="/cosmic-services" element={<CosmicServices />} />
           </Routes>
         </BrowserRouter>
         <Footer />

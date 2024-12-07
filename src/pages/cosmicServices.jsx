@@ -51,13 +51,13 @@ const CosmicServices = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <div className="flex justify-center mb-4">
                 <img
-                  src="/img/k12net.png"
+                  src="/img/partner4.svg"
                   alt="k12net"
                   className="h-16 object-contain"
                 />
               </div>
               <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                k12net
+                Kosmosx
               </h1>
               <p className="text-gray-600 text-center text-sm">
                 Description about K12net goes here. This can be short and
@@ -75,7 +75,7 @@ const CosmicServices = () => {
                 />
               </div>
               <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                Okulaile
+                Aviation academy
               </h1>
               <p className="text-gray-600 text-center text-sm">
                 Description about Okulaile goes here. This can be short and
