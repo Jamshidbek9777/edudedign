@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Instagram, Youtube, Facebook, Linkedin } from "lucide-react";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -29,6 +28,20 @@ const Navbar = () => {
           <FaFacebook className="cursor-pointer hover:text-pink-500 transition duration-300 text-xl" />
         </div>
         <div className="flex gap-4 items-center">
+          <div className="flex gap-5">
+            <a
+              href="/about"
+              className="hover:text-red-500 transition text-base font-bold"
+            >
+              About us
+            </a>
+            <a
+              className="hover:text-red-500 transition text-base font-bold"
+              href=""
+            >
+              Contact
+            </a>
+          </div>
           <select
             className="border border-gray-300 rounded-md p-1 text-sm"
             aria-label="Language Selector"
@@ -54,21 +67,15 @@ const Navbar = () => {
           </div>
 
           {/* Items */}
-          <div className="hidden lg:flex gap-8 text-gray-700 text-sm text-center">
+          <div className="hidden lg:flex gap-4 2xl:gap-8 text-gray-700 text-sm text-center">
             <a
-              href="/about"
-              className="hover:text-red-500 transition text-base font-bold"
-            >
-              About us
-            </a>
-            <a
-              href="/services"
+              href="/teachingTech"
               className="hover:text-red-500 transition text-base font-bold"
             >
               Egitim technology
             </a>
             <a
-              href="/services"
+              href="/cosmic-services"
               className="hover:text-red-500 transition text-base font-bold"
             >
               Uzay Hizmatlari
@@ -83,20 +90,32 @@ const Navbar = () => {
               href="/services"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Services
+              Academyx
             </a>
 
             <a
               href="/blog"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Blog
+              Talim modeli
             </a>
             <a
               href="/contact"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Contact Us
+              Turkchasoati
+            </a>
+            <a
+              href="/contact"
+              className="hover:text-red-500 transition text-base font-bold"
+            >
+              Kitaplar
+            </a>
+            <a
+              href="/contact"
+              className="hover:text-red-500 transition text-base font-bold"
+            >
+              Talaba transfer
             </a>
           </div>
         </div>

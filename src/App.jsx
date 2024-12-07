@@ -21,7 +21,6 @@ function App() {
         <Advantages />
         <ContactUs />
         <LogoCarouselPage />
-        <Footer />
       </div>
     </>
   );

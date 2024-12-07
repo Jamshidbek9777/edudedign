@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Wrapper from "../layout/wrapper";
 import InputMask from "react-input-mask";
 import { Button } from "@nextui-org/react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ContactUs = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <Wrapper>
-      <div className="flex flex-col md:flex-row items-center md:justify-between   space-y-8 md:space-y-0">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col md:flex-row items-center md:justify-between   space-y-8 md:space-y-0"
+      >
         <div className="w-full md:w-1/2">
           <img
             src="/img/contactuspic.png"
