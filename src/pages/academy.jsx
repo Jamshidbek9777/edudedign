@@ -1,14 +1,8 @@
-import React, { useEffect } from "react";
-import Wrapper from "../layout/wrapper";
+import React from "react";
 import ContactUs from "../components/contactUs";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { Button } from "@nextui-org/react";
-import { FiArrowRightCircle } from "react-icons/fi";
-const CosmicServices = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+import Wrapper from "../layout/wrapper";
+
+const Academy = () => {
   return (
     <div
       style={{
@@ -25,7 +19,7 @@ const CosmicServices = () => {
           <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                Kosmosx
+                Labaratories
               </h1>
               <p className="text-gray-700 text-lg leading-relaxed">
                 The journey of a thousand miles begins with a single step, and
@@ -35,17 +29,10 @@ const CosmicServices = () => {
                 various academic facilities, and exceptional discounts during
                 their university admission procedures and enrollment.
               </p>
-              <Button
-                color="primary"
-                className="mt-5"
-                endContent={<FiArrowRightCircle />}
-              >
-                Go to website
-              </Button>
             </div>
             <div className="">
               <img
-                src="/img/cosmicpic.png"
+                src="/img/labpic.png"
                 alt="About Us"
                 className="rounded-xl w-[450px]"
               />
@@ -135,4 +122,4 @@ const CosmicServices = () => {
   );
 };
 
-export default CosmicServices;
+export default Academy;

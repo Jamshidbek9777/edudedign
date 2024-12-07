@@ -81,27 +81,20 @@ const Navbar = () => {
               Kosmosx
             </a>
             <a
-              href="/services"
+              href="/labaratories"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Labaratory
+              Labaratories
             </a>
             <a
-              href="/services"
+              href="/academy"
               className="hover:text-red-500 transition text-base font-bold"
             >
               Academyx
             </a>
 
             <a
-              href="/contact"
-              className="hover:text-red-500 transition text-base font-bold"
-            >
-              Turk tili
-            </a>
-
-            <a
-              href="/contact"
+              href="/airtravel"
               className="hover:text-red-500 transition text-base font-bold"
             >
               Transfer
