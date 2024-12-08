@@ -1,8 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { LanguageContext } from "../context/language";
+import { getText } from "../languages";
+
 const Navbar = () => {
+  const { selectedLanguage, selectedFlag, changeLanguage } =
+    useContext(LanguageContext);
+
   const [isMenuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     if (isMenuOpen) {
@@ -33,23 +40,41 @@ const Navbar = () => {
               href="/about"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              About us
+              {getText("navbar4")}
             </a>
             <a
               className="hover:text-red-500 transition text-base font-bold"
               href=""
             >
-              Contact
+              {getText("navbar5")}
             </a>
           </div>
-          <select
-            className="border border-gray-300 rounded-md p-1 text-sm"
-            aria-label="Language Selector"
-          >
-            <option value="en">English</option>
-            <option value="uz">O'zbek</option>
-            <option value="ru">Русский</option>
-          </select>
+          <div className="relative">
+            <div className="flex items-center gap-[5px] outline-none border-none cursor-pointer">
+              <img
+                src={selectedFlag}
+                style={{ width: "20px", objectFit: "cover" }}
+              />
+              <select
+                className="bg-transparent border-none outline-none cursor-pointer"
+                onChange={(e) => changeLanguage(e.target.value)}
+                value={selectedLanguage}
+              >
+                <option className="dark:bg-[#121624] border-none" value="uz">
+                  Oʻzbek
+                </option>
+                <option className="dark:bg-[#121624] border-none" value="en">
+                  English
+                </option>
+                <option className="dark:bg-[#121624] border-none" value="tr">
+                  Türkçe
+                </option>
+                <option className="dark:bg-[#121624] border-none" value="ru">
+                  Русский
+                </option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -72,7 +97,7 @@ const Navbar = () => {
               href="/teachingTech"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Technology
+              {getText("navbar1")}
             </a>
             <a
               href="/cosmic-services"
@@ -84,7 +109,7 @@ const Navbar = () => {
               href="/labaratories"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Labaratories
+              {getText("navbar2")}
             </a>
             <a
               href="/academy"
@@ -97,7 +122,7 @@ const Navbar = () => {
               href="/airtravel"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Transfer
+              {getText("navbar3")}
             </a>
           </div>
         </div>

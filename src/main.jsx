@@ -11,25 +11,28 @@ import CosmicServices from "./pages/cosmicServices.jsx";
 import Labaratories from "./pages/labaratories.jsx";
 import Academy from "./pages/academy.jsx";
 import Airtravel from "./components/airtravel.jsx";
+import { LanguageProvider } from "./context/language.jsx";
 
 const Root = () => {
   return (
     <>
-      <NextUIProvider>
-        <BrowserRouter>
-          <Navbar />
-          <Routes className="min-h-screen">
-            <Route path="/" element={<App />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/teachingTech" element={<TeachingTech />} />
-            <Route path="/cosmic-services" element={<CosmicServices />} />
-            <Route path="/labaratories" element={<Labaratories />} />
-            <Route path="/academy" element={<Academy />} />
-            <Route path="/airtravel" element={<Airtravel />} />
-          </Routes>
-        </BrowserRouter>
-        <Footer />
-      </NextUIProvider>
+      <LanguageProvider>
+        <NextUIProvider>
+          <BrowserRouter>
+            <Navbar />
+            <Routes className="min-h-screen">
+              <Route path="/" element={<App />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/teachingTech" element={<TeachingTech />} />
+              <Route path="/cosmic-services" element={<CosmicServices />} />
+              <Route path="/labaratories" element={<Labaratories />} />
+              <Route path="/academy" element={<Academy />} />
+              <Route path="/airtravel" element={<Airtravel />} />
+            </Routes>
+          </BrowserRouter>
+          <Footer />
+        </NextUIProvider>
+      </LanguageProvider>
     </>
   );
 };
