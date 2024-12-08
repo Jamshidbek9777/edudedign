@@ -65,7 +65,7 @@ const EducationDesign = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
               <FiUsers className="text-4xl text-[#e63f38] mb-4" />
               <h1 className="text-xl font-semibold text-gray-800 mb-2">
-                {getText("eduCard3Header")}
+                {getText("eduCard2Header")}
               </h1>
               <div className="text-start">
                 <p className="text-gray-600 text-sm">
@@ -93,7 +93,7 @@ const EducationDesign = () => {
                   • {getText("eduCard3Text2")}
                 </p>
                 <p className="text-gray-600 text-sm">
-                  •{getText("eduCard3Text3")}
+                  • {getText("eduCard3Text3")}
                 </p>
               </div>
             </div>

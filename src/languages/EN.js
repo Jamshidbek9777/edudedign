@@ -62,4 +62,48 @@ export const en = {
 
   bottomText:
     "We offer special solutions to the different needs of each institution and guide you for sustainable success in education. Contact us to build a stronger educational future together!",
+
+  // Transfer page
+  transferHeader: "An Educational Bridge Between Two Countries",
+  transferDesc:
+    "As EduAgency, we establish a strong educational bridge between Uzbekistan and Turkey, bringing together the cultural ties and academic potential of both countries. With our expert team and years of experience, we provide professional services in student transfers and education specialist exchanges.",
+
+  // Card 1
+  transferCard1Header:
+    "Transfer of Educational Specialists from Turkey to Uzbekistan",
+  transferCard1Text1:
+    "Qualified Specialist Selection: Selecting and placing experts who stand out with their experience in the education sector.",
+  transferCard1Text2:
+    "Education Project Management: Teacher training, curriculum development, and consultancy services.",
+  transferCard1Text3:
+    "Cultural Adaptation Support: Special programs for Turkish education specialists to adapt to Uzbek culture.",
+
+  // Card 2
+  transferCard2Header: "The Power of Cultural Ties, Academic Cooperation",
+  transferCard2Text1:
+    "As EduAgency, we act with the mission of strengthening the historical and cultural ties between the Turkish and Uzbek people.",
+  transferCard2Text2:
+    "Education is not just about transferring knowledge but also a bridge between cultures.",
+  transferCard2Text3:
+    "With this understanding, we are proud to be the most reliable solution partner for students and education specialists.",
+
+  // teaching-tech
+  teachingTechHeader: "Education Technologies",
+  teachingTechDesc:
+    "Modern education technologies are innovative tools developed to make the learning process more effective, accessible, and engaging. At EduAgency, we offer technology-driven solutions for both students and educators. With smart classroom applications, digital learning platforms, and interactive content, we align education with the needs of the future. By leveraging the power of technology in education, we redefine individuals' learning experiences.",
+
+  // card
+  teachingTechCardText1:
+    "K12NET is a student information system that combines technology to improve performance, accuracy, and communication for teachers, students, staff, and parents.",
+  teachingTechCardText2:
+    "With OkulAile, Preschools, Primary Schools, High Schools, Private Schools, Colleges, Private Education Courses, Study Centers, Art Centers, and Rehabilitation Centers can meet all their needs easily and quickly via mobile.",
+  teachingTechCardText3:
+    "MentalUP is an effective way of cognitive development with over 150 fun brain games. Personalized brain-training games support individual development.",
+  teachingTechCardText4:
+    "Embark on an incredible space adventure designed for children aged 4-10! Future Astronaut is an excellent educational app that combines fun games.",
+
+  //labs
+  labsHeader: "Education labaratories",
+  labsDesc:
+    "Explore our advanced laboratories designed to provide students with hands-on learning experiences. From STEM and energy innovation to aerospace and digital design, we offer cutting-edge resources for aspiring professionals and researchers.",
 };

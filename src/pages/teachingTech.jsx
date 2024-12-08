@@ -1,10 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import Wrapper from "../layout/wrapper";
 import ContactUs from "../components/contactUs";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { getText } from "../languages/index.js";
+import { LanguageContext } from "../context/language.jsx";
 
 const TeachingTech = () => {
+  const { selectedLanguage, selectedFlag, changeLanguage } =
+    useContext(LanguageContext);
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -24,15 +29,10 @@ const TeachingTech = () => {
           <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                Egitim Technology
+                {getText("teachingTechHeader")}
               </h1>
               <p className="text-gray-700 text-lg leading-relaxed">
-                The journey of a thousand miles begins with a single step, and
-                here at Turkey Campus, we were the first step and companion for
-                thousands of ambitious students. To them, it is our honor to
-                provide our best educational support, counseling services,
-                various academic facilities, and exceptional discounts during
-                their university admission procedures and enrollment.
+                {getText("teachingTechDesc")}
               </p>
             </div>
             <div className="">
@@ -61,8 +61,7 @@ const TeachingTech = () => {
                 k12net
               </h1>
               <p className="text-gray-600 text-center text-sm">
-                Description about K12net goes here. This can be short and
-                informative.
+                {getText("teachingTechCardText1")}
               </p>
             </div>
 
@@ -79,8 +78,7 @@ const TeachingTech = () => {
                 Okulaile
               </h1>
               <p className="text-gray-600 text-center text-sm">
-                Description about Okulaile goes here. This can be short and
-                informative.
+                {getText("teachingTechCardText2")}
               </p>
             </div>
 
@@ -97,8 +95,7 @@ const TeachingTech = () => {
                 Mentalup
               </h1>
               <p className="text-gray-600 text-center text-sm">
-                Description about Mentalup goes here. This can be short and
-                informative.
+                {getText("teachingTechCardText3")}
               </p>
             </div>
 
@@ -106,17 +103,16 @@ const TeachingTech = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <div className="flex justify-center mb-4">
                 <img
-                  src="/img/vedubox_logo.svg"
+                  src="/img/futureast.png"
                   alt="Vedubox"
                   className="h-16 object-contain"
                 />
               </div>
               <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                Vedubox
+                Future astronaut
               </h1>
               <p className="text-gray-600 text-center text-sm">
-                Description about Vedubox goes here. This can be short and
-                informative.
+                {getText("teachingTechCardText4")}
               </p>
             </div>
           </div>

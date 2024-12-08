@@ -1,27 +1,32 @@
-import React from "react";
+import React, { useContext } from "react";
 import ContactUs from "../components/contactUs";
 import Wrapper from "../layout/wrapper";
 import { AiOutlineUser, AiOutlineTeam } from "react-icons/ai";
-
+import { getText } from "../languages/index.js";
+import { LanguageContext } from "../context/language.jsx";
 const Transfer = () => {
+  const { selectedLanguage, selectedFlag, changeLanguage } =
+    useContext(LanguageContext);
+
   const cards = [
     {
-      title: "Türkiye’den Özbekistan’a Eğitim Uzmanı Transferi",
+      title: getText("transferCard1Header"),
       icon: <AiOutlineUser size={30} className="text-[#e63f38]" />,
       content: [
-        "Özbekistan’daki eğitim kurumlarının ihtiyaçlarına yönelik olarak Türkiye’den alanında uzman eğitimciler ve akademisyenleri transfer ediyoruz.",
-        "• Nitelikli Uzman Seçimi: Eğitim sektöründeki deneyimiyle fark yaratan uzmanların seçimi ve yerleştirilmesi.",
-        "• Eğitim Projeleri Yönetimi: Öğretmen eğitimi, müfredat geliştirme ve danışmanlık hizmetleri.",
-        "• Kültürel Uyum Desteği: Türk eğitim uzmanlarının Özbek kültürüne adaptasyonu için özel programlar.",
+        getText("transferCard1Header"),
+        `• ${getText("transferCard1Text1")}`,
+        `• ${getText("transferCard1Text2")}`,
+        `• ${getText("transferCard1Text3")}`,
       ],
     },
     {
-      title: "Kültürel Bağların Gücü, Akademik İş Birliği",
+      title: getText("transferCard2Header"),
       icon: <AiOutlineTeam size={30} className="text-[#e63f38]" />,
       content: [
-        "EduAgency olarak, Türk ve Özbek halkları arasındaki tarihi ve kültürel bağları güçlendirme misyonuyla hareket ediyoruz.",
-        "Eğitim, sadece bilgi transferi değil, aynı zamanda kültürler arası bir köprüdür.",
-        "Bu anlayışla, öğrenciler ve eğitim uzmanları için en güvenilir çözüm ortağı olmaktan gurur duyuyoruz.",
+        getText("transferCard2Header"),
+        `• ${getText("transferCard2Text1")}`,
+        `• ${getText("transferCard2Text2")}`,
+        `• ${getText("transferCard2Text3")}`,
       ],
     },
   ];
@@ -39,14 +44,10 @@ const Transfer = () => {
           <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                İki Ülke Arasında Eğitim Köprüsü
+                {getText("transferHeader")}
               </h1>
               <p className="text-gray-700 text-lg leading-relaxed">
-                EduAgency olarak, Özbekistan ve Türkiye arasında güçlü bir
-                eğitim köprüsü kurarak iki ülkenin kültürel bağlarını ve
-                akademik potansiyelini bir araya getiriyoruz. Uzman ekibimiz ve
-                yıllara dayanan deneyimimizle öğrenci transferi ve eğitim uzmanı
-                değişiminde profesyonel hizmetler sunuyoruz.
+                {getText("transferDesc")}
               </p>
             </div>
             <div>
