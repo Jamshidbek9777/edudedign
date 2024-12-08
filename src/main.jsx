@@ -12,6 +12,7 @@ import Labaratories from "./pages/labaratories.jsx";
 import Academy from "./pages/academy.jsx";
 import Airtravel from "./components/airtravel.jsx";
 import { LanguageProvider } from "./context/language.jsx";
+import EducationDesign from "./pages/edudesign.jsx";
 
 const Root = () => {
   return (
@@ -28,6 +29,7 @@ const Root = () => {
               <Route path="/labaratories" element={<Labaratories />} />
               <Route path="/academy" element={<Academy />} />
               <Route path="/airtravel" element={<Airtravel />} />
+              <Route path="/edu-design" element={<EducationDesign />} />
             </Routes>
           </BrowserRouter>
           <Footer />

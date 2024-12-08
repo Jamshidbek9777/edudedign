@@ -124,6 +124,12 @@ const Navbar = () => {
             >
               {getText("navbar3")}
             </a>
+            <a
+              href="/edu-design"
+              className="hover:text-red-500 transition text-base font-bold"
+            >
+              {getText("navbar6")}
+            </a>
           </div>
         </div>
         <div

@@ -1,10 +1,11 @@
 export const ru = {
   //navbar
   navbar1: "Технологии",
-  navbar2: "Лаборатории",
+  navbar2: "STEMLab",
   navbar3: "Перевод",
   navbar4: "О нас",
   navbar5: "Контакт",
+  navbar6: "Образовательный дизайн",
 
   //sliders
   slider1Header: "Технологии образования",

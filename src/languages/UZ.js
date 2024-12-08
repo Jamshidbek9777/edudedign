@@ -1,9 +1,10 @@
 export const uz = {
   navbar1: "Texnologiyalar",
-  navbar2: "Labaratoriyalar",
+  navbar2: "STEMLab",
   navbar3: "Transfer",
   navbar4: "Biz haqimizda",
   navbar5: "Bog'lanish",
+  navbar6: "Ta'lim dizayni",
 
   slider1Header: "Ta'lim texnologiyalari",
   slider2Header: "Kosmosx",

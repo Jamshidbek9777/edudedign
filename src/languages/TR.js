@@ -1,10 +1,11 @@
 export const tr = {
   //navbar
   navbar1: "Teknolojiler",
-  navbar2: "Laboratuvarlar",
+  navbar2: "STEMLab",
   navbar3: "Transfer",
   navbar4: "Hakkımızda",
   navbar5: "İletişim",
+  navbar6: "Eğitim Tasarımı",
 
   //sliders
   slider1Header: "Eğitim teknolojileri",

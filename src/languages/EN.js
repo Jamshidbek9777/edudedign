@@ -1,9 +1,10 @@
 export const en = {
   navbar1: "Technologies",
-  navbar2: "Labaratories",
+  navbar2: "STEMLab",
   navbar3: "Transfer",
   navbar4: "About us",
   navbar5: "Contact",
+  navbar6: "Educational design",
 
   slider1Header: "Education technologies",
   slider2Header: "Kosmosx",
