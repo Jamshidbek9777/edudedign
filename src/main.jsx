@@ -1,18 +1,20 @@
-import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar.jsx";
+import { LanguageProvider } from "./context/language.jsx";
+import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
+
+import Navbar from "./components/navbar.jsx";
 import About from "./pages/about.jsx";
 import Footer from "./components/footer.jsx";
 import TeachingTech from "./pages/teachingTech.jsx";
 import CosmicServices from "./pages/cosmicServices.jsx";
 import Labaratories from "./pages/labaratories.jsx";
 import Academy from "./pages/academy.jsx";
-import Airtravel from "./components/airtravel.jsx";
-import { LanguageProvider } from "./context/language.jsx";
 import EducationDesign from "./pages/edudesign.jsx";
+import Transfer from "./pages/transfer.jsx";
+
+import App from "./App.jsx";
+import "./index.css";
 
 const Root = () => {
   return (
@@ -28,7 +30,7 @@ const Root = () => {
               <Route path="/cosmic-services" element={<CosmicServices />} />
               <Route path="/labaratories" element={<Labaratories />} />
               <Route path="/academy" element={<Academy />} />
-              <Route path="/airtravel" element={<Airtravel />} />
+              <Route path="/transfer" element={<Transfer />} />
               <Route path="/edu-design" element={<EducationDesign />} />
             </Routes>
           </BrowserRouter>

@@ -94,17 +94,18 @@ const Navbar = () => {
           {/* Items */}
           <div className="hidden lg:flex gap-4 2xl:gap-8 text-gray-700 text-sm text-center">
             <a
+              href="/edu-design"
+              className="hover:text-red-500 transition text-base font-bold"
+            >
+              {getText("navbar6")}
+            </a>
+            <a
               href="/teachingTech"
               className="hover:text-red-500 transition text-base font-bold"
             >
               {getText("navbar1")}
             </a>
-            <a
-              href="/cosmic-services"
-              className="hover:text-red-500 transition text-base font-bold"
-            >
-              Kosmosx
-            </a>
+
             <a
               href="/labaratories"
               className="hover:text-red-500 transition text-base font-bold"
@@ -119,16 +120,16 @@ const Navbar = () => {
             </a>
 
             <a
-              href="/airtravel"
+              href="/transfer"
               className="hover:text-red-500 transition text-base font-bold"
             >
               {getText("navbar3")}
             </a>
             <a
-              href="/edu-design"
+              href="/cosmic-services"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              {getText("navbar6")}
+              Kosmosx
             </a>
           </div>
         </div>
