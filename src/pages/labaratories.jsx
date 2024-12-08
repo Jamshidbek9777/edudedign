@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-import { FiArrowRightCircle } from "react-icons/fi";
 import ContactUs from "../components/contactUs";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const Labaratories = () => {
+  const { selectedLanguage, selectedFlag, changeLanguage } =
+    useContext(LanguageContext);
+
   return (
     <div
       style={{
@@ -21,14 +25,10 @@ const Labaratories = () => {
           <div className="bg-white px-8 py-10 lg:py-12 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                Education labaratories
+                {getText("labsHeader")}
               </h1>
               <p className="text-gray-700 text-lg leading-relaxed">
-                Explore our advanced laboratories designed to provide students
-                with hands-on learning experiences. From STEM and energy
-                innovation to aerospace and digital design, we offer
-                cutting-edge resources for aspiring professionals and
-                researchers.
+                {getText("labsDesc")}
               </p>
             </div>
             <div>
@@ -56,12 +56,10 @@ const Labaratories = () => {
               </div>
               <div className="flex-grow flex flex-col justify-center">
                 <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                  STEM Laboratory
+                  {getText("labsCard1Header")}
                 </h1>
                 <p className="text-gray-600 text-center text-sm">
-                  A place for innovation and discovery in science, technology,
-                  engineering, and math. Equipped with the latest tools to
-                  foster creativity and problem-solving skills.
+                  {getText("labsCard1Text")}
                 </p>
               </div>
             </div>
@@ -77,12 +75,10 @@ const Labaratories = () => {
               </div>
               <div className="flex-grow flex flex-col justify-center">
                 <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                  Intellectual Games
+                  {getText("labsCard2Header")}
                 </h1>
                 <p className="text-gray-600 text-center text-sm">
-                  Engage in mental exercises designed to enhance cognitive
-                  skills and boost problem-solving abilities in a fun and
-                  interactive way.
+                  {getText("labsCard2Text")}
                 </p>
               </div>
             </div>
@@ -98,11 +94,10 @@ const Labaratories = () => {
               </div>
               <div className="flex-grow flex flex-col justify-center">
                 <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                  Aerospace Laboratory
+                  {getText("labsCard3Header")}
                 </h1>
                 <p className="text-gray-600 text-center text-sm">
-                  Dive into the world of aviation and space exploration with
-                  cutting-edge equipment and simulations.
+                  {getText("labsCard3Text")}
                 </p>
               </div>
             </div>
@@ -118,11 +113,10 @@ const Labaratories = () => {
               </div>
               <div className="flex-grow flex flex-col justify-center">
                 <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                  Energy Innovation
+                  {getText("labsCard4Header")}
                 </h1>
                 <p className="text-gray-600 text-center text-sm">
-                  Learn about renewable energy sources, smart grids, and
-                  innovative technologies shaping the future of energy.
+                  {getText("labsCard4Text")}
                 </p>
               </div>
             </div>
@@ -138,11 +132,10 @@ const Labaratories = () => {
               </div>
               <div className="flex-grow flex flex-col justify-center">
                 <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                  Electronics Laboratory
+                  {getText("labsCard5Header")}
                 </h1>
                 <p className="text-gray-600 text-center text-sm">
-                  Hands-on experience with circuits, robotics, and
-                  microcontroller programming in a dynamic environment.
+                  {getText("labsCard5Text")}
                 </p>
               </div>
             </div>
@@ -158,11 +151,10 @@ const Labaratories = () => {
               </div>
               <div className="flex-grow flex flex-col justify-center">
                 <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                  Design Applications
+                  {getText("labsCard6Header")}
                 </h1>
                 <p className="text-gray-600 text-center text-sm">
-                  Explore creative software tools and techniques to bring
-                  innovative design concepts to life.
+                  {getText("labsCard6Text")}
                 </p>
               </div>
             </div>

@@ -106,4 +106,34 @@ export const en = {
   labsHeader: "Education labaratories",
   labsDesc:
     "Explore our advanced laboratories designed to provide students with hands-on learning experiences. From STEM and energy innovation to aerospace and digital design, we offer cutting-edge resources for aspiring professionals and researchers.",
+
+  //card1
+  labsCard1Header: "STEM Laboratory",
+  labsCard1Text:
+    "A place for innovation and discovery in science, technology, engineering, and math. Equipped with the latest tools to foster creativity and problem-solving skills.",
+
+  //card2
+  labsCard2Header: "Intellectual Games",
+  labsCard2Text:
+    "Engage in mental exercises designed to enhance cognitiv skills and boost problem-solving abilities in a fun and interactive way.",
+
+  //card3
+  labsCard3Header: "Aerospace Laboratory",
+  labsCard3Text:
+    "Dive into the world of aviation and space exploration with cutting-edge equipment and simulations.",
+
+  //card4
+  labsCard4Header: "Energy Innovation",
+  labsCard4Text:
+    "Learn about renewable energy sources, smart grids, and innovative technologies shaping the future of energy.",
+
+  //card5
+  labsCard5Header: "Electronics Laboratory",
+  labsCard5Text:
+    "Hands-on experience with circuits, robotics, and microcontroller programming in a dynamic environment.",
+
+  //card6
+  labsCard6Header: "Design Applications",
+  labsCard6Text:
+    "Explore creative software tools and techniques to bring innovative design concepts to life.",
 };

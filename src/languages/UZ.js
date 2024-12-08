@@ -104,5 +104,38 @@ export const uz = {
   teachingTechCardText4:
     "4-10 yoshli bolalar uchun mo‘ljallangan ajoyib kosmik sarguzashtga qo‘shiling! Future Astronaut — bu qiziqarli o‘yinlarni birlashtirgan mukammal ta'lim ilovasi.",
 
-  //teaching-tech
+  //labs
+  labsHeader: "Ta'lim laboratoriyalari",
+  labsDesc:
+    "Talabalarga amaliy ta'lim olish imkonini beradigan ilg'or laboratoriyalarimizni kashf eting. STEM va energiya innovatsiyalaridan aviatsiya va raqamli dizaynlargacha, biz kelajakdagi mutaxassislar va tadqiqotchilar uchun ilg'or resurslarni taklif etamiz.",
+
+  //card1
+  labsCard1Header: "STEM Laboratoriyasi",
+  labsCard1Text:
+    "Ilm-fan, texnologiya, muhandislik va matematika sohalarida innovatsiya va kashfiyotlar uchun joy. Yaratilish va muammolarni hal qilish ko'nikmalarini rivojlantirish uchun eng yangi vositalar bilan jihozlangan.",
+
+  //card2
+  labsCard2Header: "Intellektual O'yinlar",
+  labsCard2Text:
+    "Kognitiv ko'nikmalarni oshirish va muammolarni hal qilish qobiliyatlarini kuchaytirish uchun mo'ljallangan aqliy mashqlar bilan interaktiv va qiziqarli tarzda shug'ullaning.",
+
+  //card3
+  labsCard3Header: "Aerospace Laboratoriyasi",
+  labsCard3Text:
+    "Aviatsiya va kosmik tadqiqotlar dunyosiga ilg'or jihozlar va simulyatsiyalar yordamida sho'ng'ish.",
+
+  //card4
+  labsCard4Header: "Energiya Innovatsiyalari",
+  labsCard4Text:
+    "Yoqilg'i manbalarini, aqlli tarmoqlarni va energiyaning kelajagini shakllantirayotgan innovatsion texnologiyalarni o'rganing.",
+
+  //card5
+  labsCard5Header: "Elektronika Laboratoriyasi",
+  labsCard5Text:
+    "Dinamik muhitda sxemalar, robototexnika va mikrocontroller dasturlash bilan amaliy tajriba.",
+
+  //card6
+  labsCard6Header: "Dizayn Ilovalari",
+  labsCard6Text:
+    "Ijodiy dizayn g'oyalarini hayotga tatbiq etish uchun yaratuvchi dasturiy vositalar va texnikalarni o'rganing.",
 };

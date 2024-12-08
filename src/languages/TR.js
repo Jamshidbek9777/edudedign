@@ -104,5 +104,37 @@ export const tr = {
     "4-10 yaş arası çocuklar için tasarlanmış inanılmaz bir uzay macerasına atılın! Future Astronaut, eğlenceli oyunları birleştiren mükemmel bir eğitim uygulamasıdır",
 
   //labs
-  labsHeader: "Eğitim laboratuvarları",
+  labsHeader: "Eğitim Laboratuvarları",
+  labsDesc:
+    "Öğrencilere pratik öğrenme deneyimleri sunmak için tasarlanmış gelişmiş laboratuvarlarımızı keşfedin. STEM ve enerji inovasyonlarından havacılık ve dijital tasarıma kadar, gelecek vaat eden profesyoneller ve araştırmacılar için son teknoloji kaynaklar sunuyoruz.",
+
+  //card1
+  labsCard1Header: "STEM Laboratuvarı",
+  labsCard1Text:
+    "Bilim, teknoloji, mühendislik ve matematik alanlarında yenilik ve keşif için bir alan. Yaratıcılığı ve problem çözme becerilerini geliştirmek için en son araçlarla donatılmış.",
+
+  //card2
+  labsCard2Header: "Zihinsel Oyunlar",
+  labsCard2Text:
+    "Bilişsel becerileri geliştirmek ve problem çözme yeteneklerini artırmak için tasarlanmış zihinsel egzersizlerle eğlenceli ve etkileşimli bir şekilde meşgul olun.",
+
+  //card3
+  labsCard3Header: "Havacılık Laboratuvarı",
+  labsCard3Text:
+    "İleri teknoloji ekipmanlar ve simülasyonlarla havacılık ve uzay keşfi dünyasına dalın.",
+
+  //card4
+  labsCard4Header: "Enerji İnovasyonları",
+  labsCard4Text:
+    "Yenilenebilir enerji kaynakları, akıllı şebekeler ve enerjinin geleceğini şekillendiren yenilikçi teknolojileri öğrenin.",
+
+  //card5
+  labsCard5Header: "Elektronik Laboratuvarı",
+  labsCard5Text:
+    "Dinamik bir ortamda devreler, robotik ve mikrodenetleyici programlama ile pratik deneyim.",
+
+  //card6
+  labsCard6Header: "Tasarım Uygulamaları",
+  labsCard6Text:
+    "Yaratıcı tasarım fikirlerini hayata geçirmek için yaratıcı yazılım araçlarını ve tekniklerini keşfedin.",
 };
