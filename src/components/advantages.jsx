@@ -1,48 +1,55 @@
 import React from "react";
-import { FaCircleCheck } from "react-icons/fa6";
+import { FaCircleCheck, FaPeopleGroup } from "react-icons/fa6";
 import Wrapper from "../layout/wrapper";
+import { IoShareSocialSharp } from "react-icons/io5";
+import {
+  MdBiotech,
+  MdCastForEducation,
+  MdHomeRepairService,
+} from "react-icons/md";
+import { SiGotomeeting } from "react-icons/si";
 
 const Advantages = () => {
   const advantages = [
     {
       id: 1,
-      adv: "Free and Guaranteed University Acceptance",
-      icon: <FaCircleCheck size={16} color="green" />,
+      adv: "Uluslararası Güçlü İş Birliği Ağı",
+      icon: <FaPeopleGroup size={16} />,
     },
     {
       id: 2,
-      adv: "Free and Guaranteed University Acceptance",
-      icon: <FaCircleCheck />,
+      adv: "Sosyal Sorumluluk Projeleri ile Topluma Katkı",
+      icon: <IoShareSocialSharp />,
     },
     {
       id: 3,
-      adv: "Free and Guaranteed University Acceptance",
-      icon: <FaCircleCheck />,
+      adv: "Eğitime Güçlü Destek",
+      icon: <MdCastForEducation />,
     },
     {
       id: 4,
-      adv: "Free and Guaranteed University Acceptance",
-      icon: <FaCircleCheck />,
+      adv: "Ufuk Açıcı Programlar",
+      icon: <SiGotomeeting />,
     },
     {
       id: 5,
-      adv: "Free and Guaranteed University Acceptance",
-      icon: <FaCircleCheck />,
+      adv: "Exclusive Hizmetler",
+      icon: <MdHomeRepairService />,
     },
     {
       id: 6,
-      adv: "Free and Guaranteed University Acceptance",
-      icon: <FaCircleCheck />,
+      adv: "İnovasyon ve Yenilikçilik",
+      icon: <MdBiotech />,
     },
   ];
 
   return (
     <div className="bg-gray-50 py-10">
       <Wrapper>
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto ">
           {/* Title */}
           <h1 className="text-2xl md:text-4xl font-bold text-center mb-8 text-gray-800">
-            Advantages of Eduagency
+            Eduagencynun avantajları
           </h1>
 
           {/* Card Grid */}

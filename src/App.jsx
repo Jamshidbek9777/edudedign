@@ -17,7 +17,7 @@ function App() {
         className="min-h-screen"
       >
         <Carousel className="border-b" />
-        <WhoWeUs />
+        {/* <WhoWeUs /> */}
         <Advantages />
         <ContactUs />
         <LogoCarouselPage />

@@ -1,6 +1,6 @@
 export const tr = {
   //navbar
-  navbar1: "Teknolojiler",
+  navbar1: "Teknoloji",
   navbar2: "STEMLab",
   navbar3: "Transfer",
   navbar4: "Hakkımızda",
@@ -24,7 +24,7 @@ export const tr = {
     "Academyx aracılığıyla ileri teknolojiler ve kaynaklar sağlayarak, daha fazla bilgi ve beceri edinmenize yardımcı olmak için öğrenme yolculuğunuzu tamamen desteklemeye hazırız.",
   slider5Desc:
     "Öğrenci transfer hizmetleri için özel olarak hazırlanmış uzman danışmanlık almak için hava seyahati web sitemizi ziyaret edin.",
-
+  sliderButton: "Daha",
   //pages
   //edu-design
   eduHeader: "Eğitim Modeli Tasarımı Hizmetlerimiz",

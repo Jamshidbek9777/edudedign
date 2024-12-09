@@ -2,6 +2,10 @@ import Partner1 from "/img/partner1.svg";
 import Partner2 from "/img/partner2.svg";
 import Partner3 from "/img/partner3.png";
 import Partner4 from "/img/partner4.svg";
+import Partner5 from "/img/partner5.png";
+import Partner6 from "/img/partner6.webp";
+import Partner7 from "/img/partner7.svg";
+import Partner8 from "/img/partner8.png";
 
 export default function LogoCarousel() {
   const logos = [
@@ -9,6 +13,10 @@ export default function LogoCarousel() {
     { src: Partner2, alt: "" },
     { src: Partner3, alt: "" },
     { src: Partner4, alt: "" },
+    { src: Partner5, alt: "" },
+    { src: Partner6, alt: "" },
+    { src: Partner7, alt: "" },
+    { src: Partner8, alt: "" },
   ];
 
   return (

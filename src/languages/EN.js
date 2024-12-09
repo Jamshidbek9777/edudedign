@@ -22,7 +22,7 @@ export const en = {
     "We are fully prepared to support your learning journey by providing advanced technologies and resources through Academyx, helping you gain more knowledge and skills.",
   slider5Desc:
     "Visit our air travel website to receive expert consultation tailored specifically for student transfer services.",
-
+  sliderButton: "Learn more",
   //pages
   //edu-design
   eduHeader: "Our Educational Model Design Services",
@@ -136,4 +136,6 @@ export const en = {
   labsCard6Header: "Design Applications",
   labsCard6Text:
     "Explore creative software tools and techniques to bring innovative design concepts to life.",
+
+  //advantages:""
 };

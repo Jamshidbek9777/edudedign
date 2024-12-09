@@ -22,7 +22,7 @@ export const uz = {
     "Academyx orqali ilg‘or texnologiyalar va resurslar taqdim etib, ko‘proq bilim va ko‘nikmalarga ega bo‘lishingiz uchun o‘quv jarayonlaringizni to‘liq qo‘llab-quvvatlashga tayyormiz.",
   slider5Desc:
     "Talabalar transferi xizmatlariga moslashtirilgan professional maslahat olish uchun bizning havo sayohati veb-saytimizga tashrif buyuring.",
-
+  sliderButton: "Batafsil ma'lumot",
   //pages
   //edu-design
   eduHeader: "Ta'lim Modeli Dizayn Xizmatlarimiz",

@@ -34,8 +34,8 @@ const Navbar = () => {
           <FaYoutube className="cursor-pointer hover:text-red-600 transition duration-300 text-xl" />
           <FaFacebook className="cursor-pointer hover:text-pink-500 transition duration-300 text-xl" />
         </div>
-        <div className="flex gap-4 items-center">
-          <div className="flex gap-5">
+        <div className="flex gap-4 items-center ">
+          <div className="gap-5 hidden lg:flex">
             <a
               href="/about"
               className="hover:text-red-500 transition text-base font-bold"
@@ -44,7 +44,7 @@ const Navbar = () => {
             </a>
             <a
               className="hover:text-red-500 transition text-base font-bold"
-              href=""
+              href="/contact"
             >
               {getText("navbar5")}
             </a>
@@ -116,7 +116,7 @@ const Navbar = () => {
               href="/academy"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Academyx
+              AcademyX
             </a>
 
             <a
@@ -129,7 +129,7 @@ const Navbar = () => {
               href="/cosmic-services"
               className="hover:text-red-500 transition text-base font-bold"
             >
-              Kosmosx
+              KosmosX
             </a>
           </div>
         </div>
@@ -157,9 +157,65 @@ const Navbar = () => {
             />
           </div>
           <li>
-            <Link className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#7c7e8083] bg-opacity-10">
-              Home
+            <Link
+              to={"/about"}
+              className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+            >
+              {getText("navbar4")}
             </Link>
+          </li>
+          <li>
+            <Link
+              to={"/edu-design"}
+              className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+            >
+              {getText("navbar6")}
+            </Link>
+          </li>{" "}
+          <li>
+            <Link
+              to={"/teaching-tech"}
+              className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+            >
+              {getText("navbar1")}
+            </Link>
+          </li>{" "}
+          <li>
+            <Link
+              to={"/labaratories"}
+              className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+            >
+              {getText("navbar2")}
+            </Link>
+          </li>{" "}
+          <li>
+            <Link
+              to={"/academy"}
+              className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+            >
+              AcademyX
+            </Link>
+          </li>{" "}
+          <li>
+            <Link className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10">
+              {getText("navbar3")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/cosmic-services"}
+              className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+            >
+              KosmosX
+            </Link>
+            <li>
+              <Link
+                to={"/transfer"}
+                className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#3089dd] bg-opacity-10"
+              >
+                {getText("navbar5")}
+              </Link>
+            </li>{" "}
           </li>
         </div>
       </div>

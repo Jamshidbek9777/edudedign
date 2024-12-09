@@ -15,6 +15,7 @@ import Transfer from "./pages/transfer.jsx";
 
 import App from "./App.jsx";
 import "./index.css";
+import Contact from "./pages/contact.jsx";
 
 const Root = () => {
   return (
@@ -32,6 +33,7 @@ const Root = () => {
               <Route path="/academy" element={<Academy />} />
               <Route path="/transfer" element={<Transfer />} />
               <Route path="/edu-design" element={<EducationDesign />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </BrowserRouter>
           <Footer />
