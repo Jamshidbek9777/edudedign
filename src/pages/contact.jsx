@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Wrapper from "../layout/wrapper";
 import InputMask from "react-input-mask";
 import { Button } from "@nextui-org/react";
@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
 import axios from "axios";
+import { message } from "antd";
 
 const Contact = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -112,7 +113,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="w-full md:w-1/2">
               <form
-                action=""
+                onSubmit={sendFeedback}
                 className="p-6 bg-white rounded-lg shadow-md space-y-6"
               >
                 <div>
@@ -130,7 +131,6 @@ const Contact = () => {
                 </div>
                 <div>
                   <label className="block text-gray-700 mb-2">
-                    {" "}
                     {getText("labelPhone")}
                   </label>
                   <InputMask
@@ -159,16 +159,19 @@ const Contact = () => {
                 </div>
                 <div>
                   <label className="block text-gray-700 mb-2">
-                    {" "}
                     {getText("labelMessage")}
                   </label>
                   <textarea
                     placeholder={getText("placeHolderText")}
+                    onChange={(e) => setDescription(e.target.value)}
                     required
+                    value={description}
                     className="bg-white form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                   />
                 </div>
                 <Button
+                  type="submit"
+                  isLoading={isLoading}
                   color="primary"
                   className="w-full bg-[#e63f38] text-white hover:bg-red-600"
                 >
