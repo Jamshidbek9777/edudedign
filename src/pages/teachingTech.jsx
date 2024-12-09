@@ -22,10 +22,7 @@ const TeachingTech = () => {
       className="min-h-screen"
     >
       <Wrapper>
-        <div
-          data-aos="fade-up"
-          className="pt-40 px-4 flex flex-col items-center"
-        >
+        <div data-aos="fade-up" className="pt-40 flex flex-col items-center">
           <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
@@ -46,7 +43,7 @@ const TeachingTech = () => {
 
           <div
             data-aos="fade-up"
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10 px-4"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10 "
           >
             {/* Card 1 */}
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">

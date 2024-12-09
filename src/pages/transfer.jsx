@@ -67,7 +67,7 @@ const Transfer = () => {
           </div>
 
           {/* Cards Section */}
-          <div className="w-full px-4">
+          <div className="w-full ">
             <h3 className="text-2xl font-bold text-[#e63f38] mb-8 text-center">
               {getText("transferSubHeader")}
             </h3>

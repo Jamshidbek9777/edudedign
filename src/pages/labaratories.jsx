@@ -18,10 +18,7 @@ const Labaratories = () => {
     >
       <Wrapper>
         {/* Header Section */}
-        <div
-          data-aos="fade-up"
-          className="pt-40 px-4 flex flex-col items-center"
-        >
+        <div data-aos="fade-up" className="pt-40  flex flex-col items-center">
           <div className="bg-white px-8 py-10 lg:py-12 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
