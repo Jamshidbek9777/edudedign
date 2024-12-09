@@ -27,7 +27,7 @@ const Navbar = () => {
   };
   return (
     <div className="w-full fixed z-[999] my-2">
-      <div className="flex justify-between items-center px-4 md:px-6 py-2 text-gray-600 border-b bg-gray-100 mx-4 rounded-t-3xl">
+      <div className="flex  justify-between items-center px-4 md:px-6 py-2 text-gray-600 border-b bg-gray-100 mx-4 rounded-t-3xl">
         <div className="flex gap-4">
           <BiLogoInstagramAlt className="cursor-pointer hover:text-blue-700 transition duration-300 text-xl" />
           <FaLinkedin className="cursor-pointer hover:text-blue-600 transition duration-300 text-xl" />
@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex flex-row items-center px-4 md:px-6 py-4 gap-10 justify-between bg-white mx-4 rounded-b-3xl">
+      <div className=" shadow-lg flex flex-row items-center px-4 md:px-6 py-4 gap-10 justify-between bg-white mx-4 rounded-b-3xl">
         <div className="flex items-center gap-20">
           {/* img */}
           <div className="text-xl font-bold text-red-500">

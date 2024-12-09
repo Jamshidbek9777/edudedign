@@ -74,8 +74,8 @@ const Contact = () => {
             <div className="w-full md:w-1/2 space-y-6">
               <h2 className="text-2xl font-bold text-gray-800">Contact Info</h2>
               <p className="text-gray-600">
-                <strong>Address:</strong> 123 EduAgency Street, Tashkent,
-                Uzbekistan
+                <strong>Address:</strong> 7 Muqumiy Street,,Yakkasaray,
+                Tashkent, Uzbekistan
               </p>
               <p className="text-gray-600">
                 <strong>Phone:</strong> +998 90 123 45 67

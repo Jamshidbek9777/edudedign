@@ -5,14 +5,14 @@ export const tr = {
   navbar3: "Transfer",
   navbar4: "Hakkımızda",
   navbar5: "İletişim",
-  navbar6: "Eğitim Tasarımı",
+  navbar6: "Uzman transferi",
 
   //sliders
   slider1Header: "Eğitim teknolojileri",
   slider2Header: "Kosmosx",
   slider3Header: "Laboratuvarlar",
   slider4Header: "AcademyX",
-  slider5Header: "Öğrenciyi aktar",
+  slider5Header: "Ö",
 
   slider1Desc:
     "Becerilerinizi geliştirmek için geniş bir kaynak yelpazesinden bilgi edinebilirsiniz.",
@@ -144,6 +144,7 @@ export const tr = {
   placeHolderPhone: "Telefon numarası",
   placeHolderEmail: "E-posta adresinizi girin",
   placeHolderText: "Mesajınızı buraya yazın",
+  submitButton: "Submit",
 
   labelName: "Ad",
   labelPhone: "Telefon",
@@ -205,4 +206,24 @@ export const tr = {
     "Eğitim ve bilimsel gelişmeleri destekleyen çeşitli seminer ve etkinlikler düzenliyoruz.",
   kosmosxCard4Text:
     "Teknoloji ve inovasyon dünyasında lider olmayı hedefleyen öğrencilere yönelik etkinlikler ve yarışmalar düzenliyoruz",
+
+  // Hakkımızda
+  hakkimizdaHeader: "Hakkımızda",
+  hakkimizdaDesc:
+    "EduAgency, Türkiye ile Özbekistan arasında eğitim alanında rezonans yaratmayı amaçlayan, değişim, iletim ve iş birliğine dayalı bir eğitim topluluğudur. Vizyonumuz, Türkiye ve Özbekistan arasındaki tarihsel kültürel bağlardan aldığımız güçle eğitim alanında ortak bir sürecin inşasına anlamlı bir katkı sağlamaktır.",
+  hakkimizdaCardTitle: "Değerlerimiz",
+
+  hakkimizdaCard1Header: "İyilik",
+  hakkimizdaCard2Header: "Hızlı İletişim",
+  hakkimizdaCard3Header: "Kaliteli Hizmet",
+  hakkimizdaCard4Header: "Kültürel İlişkiler",
+
+  hakkimizdaCard1Text:
+    "Öğrencilerimizin geleceğinden sorumluyuz. Onların vizyonları ve finansal imkanlarına uygun en iyi çözümleri sunuyoruz.",
+  hakkimizdaCard2Text:
+    "Yaratıcılığı ve yenilikçi düşünmeyi destekleyerek, eğitim ve öğrenci destek hizmetlerini mükemmelliğe taşıyoruz.",
+  hakkimizdaCard3Text:
+    "Her adımımızda açıklık ve dürüstlük sağlıyoruz, öğrencilerimiz ve iş ortaklarımızla güvenilir ilişkiler kuruyoruz.",
+  hakkimizdaCard4Text:
+    "Kültürel bağları güçlendirmeye çabalıyoruz ve öğrencilerimize, öğretmenlerimize ve iş ortaklarımıza yüksek kaliteli hizmet sunuyoruz.",
 };

@@ -10,7 +10,7 @@ export const uz = {
   slider2Header: "Kosmosx",
   slider3Header: "Labaratories",
   slider4Header: "AcademyX",
-  slider5Header: "Transfer",
+  slider5Header: "Ekspert transferi",
 
   slider1Desc:
     "Ko‘nikmalaringizni rivojlantirish uchun turli manbalardan bilim olishingiz mumkin.",
@@ -145,6 +145,7 @@ export const uz = {
   placeHolderPhone: "Telefon raqami",
   placeHolderEmail: "Email manzilingizni kiriting",
   placeHolderText: "Xabarni shu yerga yozing",
+  submitButton: "Yuborish",
 
   labelName: "Ism",
   labelPhone: "Telefon",
@@ -205,4 +206,24 @@ export const uz = {
     "Biz ta'lim va ilmiy rivojlanishni qo'llab-quvvatlovchi turli seminarlar va tadbirlar tashkil etamiz.",
   kosmosxCard4Text:
     "Texnologiya va innovatsiyalar sohasida yetakchi bo'lishni istagan talabalar uchun tadbirlar va musobaqalar o'tkazamiz.",
+
+  //hakkimizda
+  hakkimizdaHeader: "Biz haqimizda",
+  hakkimizdaDesc:
+    "EduAgency, biz Turkiya va O'zbekiston o'rtasidagi ta'lim sohasida rezonans yaratish maqsadida almashish, uzatish va hamkorlik qilishga qaratilgan ta'lim hamjamiyatimiz. Bizning vizyonimiz Turkiya va O‘zbekistonning tarixiy madaniy aloqalaridan olgan kuchimiz bilan ta’lim sohasida umumiy jarayonning qurilishiga mazmunli hissa qo‘shishdir.",
+  hakkimizdaCardTitle: "Bizning Qadriyatlarimiz",
+
+  hakkimizdaCard1Header: "Yaxshilik",
+  hakkimizdaCard2Header: "Tezkor aloqa",
+  hakkimizdaCard3Header: "Sifatli xizmat",
+  hakkimizdaCard4Header: "Madaniy munosabatlar",
+
+  hakkimizdaCard1Text:
+    "Talabalarimiz kelajagi uchun javobgarmiz. Ularning vizyonlari va moliyaviy imkoniyatlariga mos eng yaxshi yechimlarni taklif qilamiz.",
+  hakkimizdaCard2Text:
+    "Biz ijodkorlikni va innovatsion fikrlashni qo‘llab-quvvatlab, ta’lim va talabalarni qo‘llab-quvvatlash xizmatlarini mukammallikka olib chiqamiz.",
+  hakkimizdaCard3Text:
+    "Har bir qadamimizda ochiqlik va halollikni ta’minlaymiz, talabalarimiz va hamkorlarimiz bilan ishonchli aloqalar quramiz.",
+  hakkimizdaCard4Text:
+    "Biz madaniy aloqalarni mustahkamlashga intilamiz va talabalarimizga, o‘qituvchilarimizga hamda hamkorlarimizga yuqori darajadagi xizmat ko‘rsatamiz.",
 };

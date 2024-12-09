@@ -10,7 +10,7 @@ export const en = {
   slider2Header: "Kosmosx",
   slider3Header: "Labaratories",
   slider4Header: "AcademyX",
-  slider5Header: "Transfer",
+  slider5Header: "Expert transfer",
 
   slider1Desc:
     "You can get knowledge from a wide range of resources to improve your skills.",
@@ -143,6 +143,7 @@ export const en = {
   placeHolderPhone: "Phone number",
   placeHolderEmail: "Enter your email",
   placeHolderText: "Write your message here",
+  submitButton: "Submit",
 
   labelName: "Name",
   labelPhone: "Phone",
@@ -203,4 +204,24 @@ export const en = {
     "We organize various seminars and events that support educational and scientific development.",
   kosmosxCard4Text:
     "We organize events and competitions for students aiming to become leaders in the world of technology and innovation.",
+
+  //hakkimizda
+  hakkimizdaHeader: "About Us",
+  hakkimizdaDesc:
+    "EduAgency is our educational community aimed at exchange, transmission, and collaboration with the goal of creating resonance in the field of education between Turkey and Uzbekistan. Our vision is to make a meaningful contribution to the construction of a common educational process by leveraging the strength of the historical cultural ties between Turkey and Uzbekistan.",
+  hakkimizdaCardTitle: "Our Values",
+
+  hakkimizdaCard1Header: "Goodness",
+  hakkimizdaCard2Header: "Quick Communication",
+  hakkimizdaCard3Header: "Quality Service",
+  hakkimizdaCard4Header: "Cultural Relations",
+
+  hakkimizdaCard1Text:
+    "We are responsible for the future of our students. We offer the best solutions tailored to their vision and financial capabilities.",
+  hakkimizdaCard2Text:
+    "We support creativity and innovative thinking, bringing education and student support services to perfection.",
+  hakkimizdaCard3Text:
+    "We ensure openness and honesty at every step, building trustful relationships with our students and partners.",
+  hakkimizdaCard4Text:
+    "We strive to strengthen cultural ties and provide high-quality services to our students, teachers, and partners.",
 };
