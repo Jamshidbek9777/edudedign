@@ -60,6 +60,7 @@ export const Carousel = () => {
         autoplay={{ delay: 3000 }}
         modules={[Navigation, Autoplay]}
         className="w-full h-full"
+        touchStartPreventDefault={false}
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -70,7 +71,7 @@ export const Carousel = () => {
                   <h1 className="text-3xl md:text-5xl font-bold text-[#1966a2]">
                     {slide.header}
                   </h1>
-                  <p className="text-2xl font-bold mt-4 text-[#e63f38]">
+                  <p className="text-lg sm:text-2xl font-bold mt-4 text-[#e63f38]">
                     {slide.description}
                   </p>
                   <Button

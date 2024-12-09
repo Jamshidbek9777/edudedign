@@ -61,7 +61,7 @@ const Advantages = () => {
             {advantages.map((advantage, index) => (
               <div
                 key={index}
-                className=" flex items-center gap-2 bg-white shadow-lg rounded-lg p-6 text-center border hover:shadow-xl transition-shadow duration-300"
+                className=" cursor-pointer flex items-center gap-2 bg-white shadow-lg rounded-lg p-6 text-center border hover:shadow-xl transition-shadow duration-300"
               >
                 {advantage.icon}
                 <p className="text-gray-700 font-medium">{advantage.adv}</p>

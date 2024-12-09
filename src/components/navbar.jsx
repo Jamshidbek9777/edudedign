@@ -174,7 +174,7 @@ const Navbar = () => {
           </li>{" "}
           <li onClick={toggleMenu}>
             <Link
-              to={"/teaching-tech"}
+              to={"/teachingTech"}
               className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
             >
               {getText("navbar1")}
