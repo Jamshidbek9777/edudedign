@@ -7,7 +7,6 @@ import "aos/dist/aos.css";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
 import axios from "axios";
-import { Alert } from "@nextui-org/alert";
 import { message } from "antd";
 
 const ContactUs = () => {
@@ -21,8 +20,6 @@ const ContactUs = () => {
   const [email, setEmail] = useState("");
   const [description, setDescription] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [alertMessage, setAlertMessage] = useState("");
-  const [alertType, setAlertType] = useState(""); // "success" or "error"
 
   const TOKEN = "8173837054:AAH6ZQ2Cz6d-EDBcX-q4p2BTV-9kR-jHAJI";
   const userid1 = "1355861489";

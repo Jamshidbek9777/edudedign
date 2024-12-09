@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
+import axios from "axios";
 
 const Contact = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -13,6 +14,45 @@ const Contact = () => {
     AOS.init();
   }, []);
 
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("+998 (__) ___-__-__");
+  const [email, setEmail] = useState("");
+  const [description, setDescription] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const TOKEN = "8173837054:AAH6ZQ2Cz6d-EDBcX-q4p2BTV-9kR-jHAJI";
+  const userid1 = "1355861489";
+  const encodeText = (text) => encodeURIComponent(text);
+
+  const sendFeedback = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    const text = `Name: ${name}\nMessage: ${description}\nPhone number: ${phone}\nEmail: ${
+      email.length === 0 ? "Email is empty" : email
+    }`;
+
+    try {
+      await axios.post(
+        `https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${userid1}&text=${encodeText(
+          text
+        )}`
+      );
+
+      message.success("Successfully sent!");
+    } catch (error) {
+      message.error("Error");
+    } finally {
+      setIsLoading(false);
+      setName("");
+      setPhone("+998 (__) ___-__-__");
+      setEmail("");
+      setDescription("");
+    }
+  };
+
+  const handlePhoneChange = (e) => {
+    const cleaned = e.target.value.replace(/[^+\d]/g, "");
+    setPhone(cleaned);
+  };
   return (
     <div
       style={{
@@ -81,7 +121,9 @@ const Contact = () => {
                   </label>
                   <InputMask
                     placeholder={getText("placeHolderName")}
+                    onChange={(e) => setName(e.target.value)}
                     type="text"
+                    value={name}
                     required
                     className="bg-white form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                   />
@@ -93,8 +135,10 @@ const Contact = () => {
                   </label>
                   <InputMask
                     mask="+999 (99) 999 99 99"
+                    onChange={handlePhoneChange}
                     placeholder={getText("placeHolderPhone")}
                     type="text"
+                    value={phone}
                     required
                     className="bg-white form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                   />
@@ -106,6 +150,8 @@ const Contact = () => {
                   </label>
                   <InputMask
                     placeholder={getText("placeHolderEmail")}
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
                     type="email"
                     required
                     className="bg-white form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"

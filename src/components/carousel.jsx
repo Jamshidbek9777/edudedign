@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import Wrapper from "../layout/wrapper.jsx";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -8,11 +8,9 @@ import { ArrowRight } from "lucide-react";
 import { getText } from "../languages/index.js";
 import { LanguageContext } from "../context/language.jsx";
 import { useContext } from "react";
-import { useNavigate } from "react-router-dom";
 
 export const Carousel = () => {
   const { selectedLanguage } = useContext(LanguageContext);
-  const router = useNavigate();
 
   // Array of slide data
   const slides = [
@@ -58,9 +56,8 @@ export const Carousel = () => {
       <Swiper
         loop={true}
         autoplay={{ delay: 3000 }}
-        modules={[Navigation, Autoplay]}
+        modules={[Autoplay]}
         className="w-full h-full"
-        touchStartPreventDefault={false}
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -75,10 +72,11 @@ export const Carousel = () => {
                     {slide.description}
                   </p>
                   <Button
+                    as="a" // Using `as="a"` to render the button as an anchor tag
+                    href={slide.link}
                     color="primary"
                     className="mt-10"
                     startContent={<ArrowRight />}
-                    onClick={() => router(`${slide.link}`)}
                   >
                     {getText("sliderButton")}
                   </Button>
