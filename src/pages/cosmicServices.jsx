@@ -19,28 +19,28 @@ const CosmicServices = () => {
       description:
         "Kosmosx, öğrencilere üniversite başvurularında ve kayıt işlemlerinde yardımcı olur. Uzman rehberlerimizle başarıya adım atın.",
       image: "/img/service1.jpg",
-      link: "/kosmik-lagerga-sayohat",
+      link: "https://kosmosx.uz/#/trip-to-space",
     },
     {
       title: "Kosmik Labs",
       description:
         "Kosmosx, öğrenciler için farklı alanlarda gelişim fırsatları sunan modern laboratuvar ve uygulama alanları sağlar.",
       image: "/img/service2.jpg",
-      link: "/kosmik-labs",
+      link: "https://kosmosx.uz/#/space-workshop",
     },
     {
       title: "Seminer",
       description:
         "Eğitim ve bilimsel gelişmeleri destekleyen çeşitli seminer ve etkinlikler düzenliyoruz.",
       image: "/img/service3.jpg",
-      link: "/tadbrirlar",
+      link: "https://kosmosx.uz/#/projects",
     },
     {
       title: "Teknofest",
       description:
         "Teknoloji ve inovasyon dünyasında lider olmayı hedefleyen öğrencilere yönelik etkinlikler ve yarışmalar düzenliyoruz.",
       image: "/img/service4.jpg",
-      link: "/teksofest",
+      link: "https://kosmosx.uz/#/technofest",
     },
   ];
 
@@ -94,19 +94,21 @@ const CosmicServices = () => {
                 key={index}
                 className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
               >
-                <div className="h-[50%] flex justify-center mb-4">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="h-full object-cover rounded-t-xl"
-                  />
-                </div>
-                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                  {service.title}
-                </h1>
-                <p className="text-gray-600 text-center text-sm mb-4">
-                  {service.description}
-                </p>
+                <a href={service.link}>
+                  <div className="h-[50%] flex justify-center mb-4">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="h-full object-cover rounded-t-xl"
+                    />
+                  </div>
+                  <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
+                    {service.title}
+                  </h1>
+                  <p className="text-gray-600 text-center text-sm mb-4">
+                    {service.description}
+                  </p>
+                </a>
               </div>
             ))}
           </div>
