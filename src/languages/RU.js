@@ -141,4 +141,16 @@ export const ru = {
   labsCard6Header: "Приложения для Дизайна",
   labsCard6Text:
     "Изучите творческие программные инструменты и техники для воплощения инновационных дизайнерских концепций.",
+
+  // contact
+  contactHeader: "Связаться с нами",
+  placeHolderName: "Введите ваше имя",
+  placeHolderPhone: "Номер телефона",
+  placeHolderEmail: "Введите ваш email",
+  placeHolderText: "Напишите ваше сообщение",
+
+  labelName: "Имя",
+  labelPhone: "Телефон",
+  labelEmail: "Email",
+  labelMessage: "Сообщение",
 };

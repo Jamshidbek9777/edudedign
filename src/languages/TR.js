@@ -137,4 +137,16 @@ export const tr = {
   labsCard6Header: "Tasarım Uygulamaları",
   labsCard6Text:
     "Yaratıcı tasarım fikirlerini hayata geçirmek için yaratıcı yazılım araçlarını ve tekniklerini keşfedin.",
+
+  // contact
+  contactHeader: "Bize Ulaşın",
+  placeHolderName: "Adınızı girin",
+  placeHolderPhone: "Telefon numarası",
+  placeHolderEmail: "E-posta adresinizi girin",
+  placeHolderText: "Mesajınızı buraya yazın",
+
+  labelName: "Ad",
+  labelPhone: "Telefon",
+  labelEmail: "E-posta",
+  labelMessage: "Mesaj",
 };

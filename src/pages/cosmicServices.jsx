@@ -1,19 +1,21 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import Wrapper from "../layout/wrapper";
 import ContactUs from "../components/contactUs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Button } from "@nextui-org/react";
 import { FiArrowRightCircle } from "react-icons/fi";
+import { LanguageContext } from "../context/language";
 
 const CosmicServices = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
   useEffect(() => {
     AOS.init();
   }, []);
 
   const services = [
     {
-      title: "Kosmik Lagerga Sayohat",
+      title: "Uzay Kampi",
       description:
         "Kosmosx, öğrencilere üniversite başvurularında ve kayıt işlemlerinde yardımcı olur. Uzman rehberlerimizle başarıya adım atın.",
       image: "/img/service1.jpg",
@@ -27,14 +29,14 @@ const CosmicServices = () => {
       link: "/kosmik-labs",
     },
     {
-      title: "Tadbrirlar",
+      title: "Seminer",
       description:
         "Eğitim ve bilimsel gelişmeleri destekleyen çeşitli seminer ve etkinlikler düzenliyoruz.",
       image: "/img/service3.jpg",
       link: "/tadbrirlar",
     },
     {
-      title: "Teksofest",
+      title: "Teknofest",
       description:
         "Teknoloji ve inovasyon dünyasında lider olmayı hedefleyen öğrencilere yönelik etkinlikler ve yarışmalar düzenliyoruz.",
       image: "/img/service4.jpg",

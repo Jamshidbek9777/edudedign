@@ -138,4 +138,16 @@ export const uz = {
   labsCard6Header: "Dizayn Ilovalari",
   labsCard6Text:
     "Ijodiy dizayn g'oyalarini hayotga tatbiq etish uchun yaratuvchi dasturiy vositalar va texnikalarni o'rganing.",
+
+  // contact
+  contactHeader: "Biz bilan bog'lanish",
+  placeHolderName: "Ismingizni kiriting",
+  placeHolderPhone: "Telefon raqami",
+  placeHolderEmail: "Email manzilingizni kiriting",
+  placeHolderText: "Xabarni shu yerga yozing",
+
+  labelName: "Ism",
+  labelPhone: "Telefon",
+  labelEmail: "Email",
+  labelMessage: "Xabar",
 };

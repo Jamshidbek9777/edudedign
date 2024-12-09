@@ -137,5 +137,15 @@ export const en = {
   labsCard6Text:
     "Explore creative software tools and techniques to bring innovative design concepts to life.",
 
-  //advantages:""
+  //contact
+  contactHeader: "Contact us",
+  placeHolderName: "Enter you name",
+  placeHolderPhone: "Phone number",
+  placeHolderEmail: "Enter your email",
+  placeHolderText: "Write your message here",
+
+  labelName: "Name",
+  labelPhone: "Phone",
+  labelEmail: "Email",
+  labelMessage: "Message",
 };

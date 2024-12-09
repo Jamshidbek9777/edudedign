@@ -1,11 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import Wrapper from "../layout/wrapper";
 import InputMask from "react-input-mask";
 import { Button } from "@nextui-org/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const ContactUs = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
   useEffect(() => {
     AOS.init();
   }, []);
@@ -27,13 +30,13 @@ const ContactUs = () => {
           <form action="" className="p-8 rounded-lg ">
             <div>
               <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
-                Contact us
+                {getText("contactHeader")}
               </h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
               <div className="inputWrap">
                 <InputMask
-                  placeholder="Name"
+                  placeholder={getText("placeHolderName")}
                   name="name"
                   required
                   type="text"
@@ -43,7 +46,7 @@ const ContactUs = () => {
               </div>
               <div className="inputWrap">
                 <InputMask
-                  placeholder="Phone"
+                  placeholder={getText("placeHolderPhone")}
                   name="name"
                   required
                   type="text"
@@ -55,7 +58,7 @@ const ContactUs = () => {
             </div>
             <div className="inputWrap mb-4">
               <InputMask
-                placeholder="Email"
+                placeholder={getText("placeHolderEmail")}
                 name="name"
                 required
                 type="email"
@@ -65,7 +68,7 @@ const ContactUs = () => {
             </div>
             <div className="inputWrap mb-4">
               <textarea
-                placeholder={"Your message"}
+                placeholder={getText("placeHolderText")}
                 // value={description}
                 className="bg-white
                  form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"

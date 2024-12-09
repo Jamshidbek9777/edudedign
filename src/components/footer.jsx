@@ -2,6 +2,7 @@ import React from "react";
 import Wrapper from "../layout/wrapper";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa6";
+import { getText } from "../languages";
 
 const Footer = () => {
   return (
@@ -25,16 +26,11 @@ const Footer = () => {
           <div className="flex justify-center items-center">
             <ul className="flex gap-8 text-lg">
               <li className="cursor-pointer hover:text-blue-600 transition duration-300 font-semibold text-sm sm:font-bold sm:text-lg ">
-                Home
+                <a href="/abouts">{getText("navbar4")}</a>
               </li>
+
               <li className="cursor-pointer hover:text-blue-600 transition duration-300 font-semibold text-sm sm:font-bold sm:text-lg">
-                Services
-              </li>
-              <li className="cursor-pointer hover:text-blue-600 transition duration-300 font-semibold text-sm sm:font-bold sm:text-lg">
-                About Us
-              </li>
-              <li className="cursor-pointer hover:text-blue-600 transition duration-300 font-semibold text-sm sm:font-bold sm:text-lg">
-                Contact
+                {getText("navbar5")}
               </li>
             </ul>
           </div>
