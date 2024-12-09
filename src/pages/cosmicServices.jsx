@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { Button } from "@nextui-org/react";
 import { FiArrowRightCircle } from "react-icons/fi";
 import { LanguageContext } from "../context/language";
+import { getText } from "../languages";
 
 const CosmicServices = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -15,30 +16,26 @@ const CosmicServices = () => {
 
   const services = [
     {
-      title: "Uzay Kampi",
-      description:
-        "Kosmosx, öğrencilere üniversite başvurularında ve kayıt işlemlerinde yardımcı olur. Uzman rehberlerimizle başarıya adım atın.",
+      title: getText("kosmosxCard1Header"),
+      description: getText("kosmosxCard1Text"),
       image: "/img/service1.jpg",
       link: "https://kosmosx.uz/#/trip-to-space",
     },
     {
-      title: "Kosmik Labs",
-      description:
-        "Kosmosx, öğrenciler için farklı alanlarda gelişim fırsatları sunan modern laboratuvar ve uygulama alanları sağlar.",
+      title: getText("kosmosxCard2Header"),
+      description: getText("kosmosxCard2Text"),
       image: "/img/service2.jpg",
       link: "https://kosmosx.uz/#/space-workshop",
     },
     {
-      title: "Seminer",
-      description:
-        "Eğitim ve bilimsel gelişmeleri destekleyen çeşitli seminer ve etkinlikler düzenliyoruz.",
+      title: getText("kosmosxCard3Header"),
+      description: getText("kosmosxCard3Text"),
       image: "/img/service3.jpg",
       link: "https://kosmosx.uz/#/projects",
     },
     {
       title: "Teknofest",
-      description:
-        "Teknoloji ve inovasyon dünyasında lider olmayı hedefleyen öğrencilere yönelik etkinlikler ve yarışmalar düzenliyoruz.",
+      description: getText("kosmosxCard4Text"),
       image: "/img/service4.jpg",
       link: "https://kosmosx.uz/#/technofest",
     },
@@ -57,15 +54,10 @@ const CosmicServices = () => {
           <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                Kosmosx Hakkında
+                {getText("kosmosxHeader")}
               </h1>
               <p className="text-gray-700 text-lg leading-relaxed">
-                Kosmosx, üniversiteye başvuran öğrencilere akademik rehberlik,
-                danışmanlık hizmetleri ve eğitim fırsatları sunar. Türkiye
-                Kampüsü'nde binlerce öğrenciye rehberlik etmenin gururunu
-                yaşıyoruz. Bizimle birlikte öğrenciler en iyi eğitim desteğini
-                alırken, kabul işlemleri sırasında önemli indirimlerden
-                faydalanabilirler.
+                {getText("kosmosxDesc")}
               </p>
               <a href="https://kosmosx.uz">
                 <Button
@@ -73,7 +65,7 @@ const CosmicServices = () => {
                   className="mt-5"
                   endContent={<FiArrowRightCircle />}
                 >
-                  Websitemizi Ziyaret Edin
+                  {getText("sliderButton")}
                 </Button>
               </a>
             </div>

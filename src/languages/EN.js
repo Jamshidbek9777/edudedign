@@ -148,4 +148,59 @@ export const en = {
   labelPhone: "Phone",
   labelEmail: "Email",
   labelMessage: "Message",
+
+  //advantages
+  advHeader: "Advantages of Eduagency",
+  advCard1: "International Strong Collaboration Network",
+  advCard2: "Contribution to Society through Social Responsibility Projects",
+  advCard3: "Strong Support for Education",
+  advCard4: "Horizon-Expanding Programs",
+  advCard5: "Exclusive Services",
+  advCard6: "Innovation and Creativity",
+
+  academyHeader: "Welcome to Academyx",
+  academyDesc:
+    "At Academyx, we aim to transform education. Our online platform brings together teachers and collaboration groups, creating a learning environment focused on cooperation and development. You could be a teacher looking to inspire or a professional seeking a project team; Academyx is the best solution for you. Together, we are shaping the future of education!",
+  academyCard1Header: "STEM",
+  academyCard2Header: "Attention",
+  academyCard3Header: "Classroom Management",
+  academyCard4Header: "Communication",
+  academyCard5Header: "Mind Map",
+  academyCard6Header: "High Intelligence",
+  academyCard7Header: "Active Learning Method",
+  academyCard8Header: "Learning Styles",
+  academyCard1Text:
+    "Provide students with leadership opportunities in science, technology, engineering, and mathematics by offering learning opportunities.",
+  academyCard2Text:
+    "Collaborate with expert teachers in different fields to customize learning experiences.",
+  academyCard3Text:
+    "Teachers and mentors provide useful techniques for classroom management.",
+  academyCard4Text:
+    "Establish strong communication with students to make learning experiences more effective.",
+  academyCard5Text:
+    "Create mind maps to help students learn lessons more effectively.",
+  academyCard6Text:
+    "Discover students with high intelligence and guide them to more advanced programs.",
+  academyCard7Text:
+    "Capture students' attention using active learning methods and train them more effectively.",
+  academyCard8Text:
+    "Understand different learning styles and adapt your teaching methods accordingly.",
+
+  //kosmosx
+  kosmosxHeader: "About Kosmosx",
+  kosmosxDesc:
+    "Kosmosx offers academic guidance, counseling services, and educational opportunities to students applying to universities. We take pride in guiding thousands of students at our Turkey Campus. With us, students receive the best educational support and can benefit from significant discounts during the admission process.",
+
+  kosmosxCard1Header: "Space Camp",
+  kosmosxCard2Header: "Cosmic Labs",
+  kosmosxCard3Header: "Activities",
+
+  kosmosxCard1Text:
+    "Kosmosx helps students with university applications and registration processes. Step towards success with our expert guides.",
+  kosmosxCard2Text:
+    "Kosmosx provides modern laboratories and practical areas offering development opportunities in various fields for students.",
+  kosmosxCard3Text:
+    "We organize various seminars and events that support educational and scientific development.",
+  kosmosxCard4Text:
+    "We organize events and competitions for students aiming to become leaders in the world of technology and innovation.",
 };

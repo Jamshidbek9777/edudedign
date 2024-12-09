@@ -47,15 +47,6 @@ const Transfer = () => {
               <p className="text-gray-700 text-lg leading-relaxed">
                 {getText("transferDesc")}
               </p>
-              <p className="mt-4">
-                Madaniy Aloqalar Kuch-qudrati, Akademik Hamkorlik <br />•
-                EduAgency sifatida biz o‘zbek va turk xalqlari o‘rtasidagi
-                tarixiy va madaniy aloqalarni mustahkamlash missiyasi bilan
-                harakat qilamiz. <br />• Ta'lim faqat bilim uzatish emas, balki
-                madaniyatlararo ko‘prikdir. <br />• Shu tushuncha bilan biz
-                talabalar va ta’lim mutaxassislari uchun eng ishonchli yechim
-                hamkori bo‘lishdan faxrlanamiz.
-              </p>
             </div>
             <div>
               <img

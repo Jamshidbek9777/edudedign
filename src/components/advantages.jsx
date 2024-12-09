@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaCircleCheck, FaPeopleGroup } from "react-icons/fa6";
 import Wrapper from "../layout/wrapper";
 import { IoShareSocialSharp } from "react-icons/io5";
@@ -8,37 +8,41 @@ import {
   MdHomeRepairService,
 } from "react-icons/md";
 import { SiGotomeeting } from "react-icons/si";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const Advantages = () => {
+  const { selectedLanguage, selectedFlag, changeLanguage } =
+    useContext(LanguageContext);
   const advantages = [
     {
       id: 1,
-      adv: "Uluslararası Güçlü İş Birliği Ağı",
+      adv: getText("advCard1"),
       icon: <FaPeopleGroup size={16} />,
     },
     {
       id: 2,
-      adv: "Sosyal Sorumluluk Projeleri ile Topluma Katkı",
+      adv: getText("advCard2"),
       icon: <IoShareSocialSharp />,
     },
     {
       id: 3,
-      adv: "Eğitime Güçlü Destek",
+      adv: getText("advCard3"),
       icon: <MdCastForEducation />,
     },
     {
       id: 4,
-      adv: "Ufuk Açıcı Programlar",
+      adv: getText("advCard4"),
       icon: <SiGotomeeting />,
     },
     {
       id: 5,
-      adv: "Exclusive Hizmetler",
+      adv: getText("advCard5"),
       icon: <MdHomeRepairService />,
     },
     {
       id: 6,
-      adv: "İnovasyon ve Yenilikçilik",
+      adv: getText("advCard6"),
       icon: <MdBiotech />,
     },
   ];
@@ -49,7 +53,7 @@ const Advantages = () => {
         <div className="container mx-auto ">
           {/* Title */}
           <h1 className="text-2xl md:text-4xl font-bold text-center mb-8 text-gray-800">
-            Eduagencynun avantajları
+            {getText("advHeader")}
           </h1>
 
           {/* Card Grid */}

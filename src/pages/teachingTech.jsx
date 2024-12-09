@@ -46,72 +46,81 @@ const TeachingTech = () => {
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10 "
           >
             {/* Card 1 */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/img/k12net.png"
-                  alt="k12net"
-                  className="h-16 object-contain"
-                />
+
+            <a href="https://turkosoft.uz">
+              <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/img/k12net.png"
+                    alt="k12net"
+                    className="h-16 object-contain"
+                  />
+                </div>
+                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
+                  k12net
+                </h1>
+                <p className="text-gray-600 text-center text-sm">
+                  {getText("teachingTechCardText1")}
+                </p>
               </div>
-              <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                k12net
-              </h1>
-              <p className="text-gray-600 text-center text-sm">
-                {getText("teachingTechCardText1")}
-              </p>
-            </div>
+            </a>
 
             {/* Card 2 */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/img/okulaile.png"
-                  alt="Okulaile"
-                  className="h-16 object-contain"
-                />
+            <a href="https://turkosoft.uz">
+              <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/img/okulaile.png"
+                    alt="Okulaile"
+                    className="h-16 object-contain"
+                  />
+                </div>
+                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
+                  Okulaile
+                </h1>
+                <p className="text-gray-600 text-center text-sm">
+                  {getText("teachingTechCardText2")}
+                </p>
               </div>
-              <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                Okulaile
-              </h1>
-              <p className="text-gray-600 text-center text-sm">
-                {getText("teachingTechCardText2")}
-              </p>
-            </div>
+            </a>
 
             {/* Card 3 */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/img/mentalup.webp"
-                  alt="Mentalup"
-                  className="h-16 object-contain"
-                />
+            <a href="https://turkosoft.uz">
+              <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/img/mentalup.webp"
+                    alt="Mentalup"
+                    className="h-16 object-contain"
+                  />
+                </div>
+                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
+                  Mentalup
+                </h1>
+                <p className="text-gray-600 text-center text-sm">
+                  {getText("teachingTechCardText3")}
+                </p>
               </div>
-              <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                Mentalup
-              </h1>
-              <p className="text-gray-600 text-center text-sm">
-                {getText("teachingTechCardText3")}
-              </p>
-            </div>
+            </a>
 
             {/* Card 4 */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/img/futureast.png"
-                  alt="Vedubox"
-                  className="h-16 object-contain"
-                />
+            <a href="https://kosmosx.uz/#/online-platforms">
+              <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div className="flex justify-center mb-4">
+                  <img
+                    src="/img/futureast.png"
+                    alt="Vedubox"
+                    className="h-16 object-contain"
+                  />
+                </div>
+                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
+                  Future astronaut
+                </h1>
+                <p className="text-gray-600 text-center text-sm">
+                  {getText("teachingTechCardText4")}
+                </p>
               </div>
-              <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                Future astronaut
-              </h1>
-              <p className="text-gray-600 text-center text-sm">
-                {getText("teachingTechCardText4")}
-              </p>
-            </div>
+            </a>
           </div>
         </div>
         <ContactUs />

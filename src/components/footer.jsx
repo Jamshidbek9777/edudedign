@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa6";
 import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const Footer = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
   return (
     <div
       style={{

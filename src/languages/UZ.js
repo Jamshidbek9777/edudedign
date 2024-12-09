@@ -6,7 +6,7 @@ export const uz = {
   navbar5: "Bog'lanish",
   navbar6: "Ta'lim dizayni",
 
-  slider1Header: "Ta'lim texnologiyalari",
+  slider1Header: "O'quv texnologiyalari",
   slider2Header: "Kosmosx",
   slider3Header: "Labaratories",
   slider4Header: "AcademyX",
@@ -150,4 +150,59 @@ export const uz = {
   labelPhone: "Telefon",
   labelEmail: "Email",
   labelMessage: "Xabar",
+
+  //advantages
+  advHeader: "Eduagencyning afzalliklari",
+  advCard1: "Xalqaro Kuchli Hamkorlik Tarmog'i",
+  advCard2: "Jamiyatga Hissa",
+  advCard3: "Ta'limga Kuchli Qo'llab-quvvatlash",
+  advCard4: "Kengaytirilgan Dasturlar",
+  advCard5: "Eksklyuziv Xizmatlar",
+  advCard6: "Innovatsiya va Yangilik",
+
+  academyHeader: "Academyx'ga Xush Kelibsiz",
+  academyDesc:
+    "Academyx sifatida biz ta'limni o'zgartirishni maqsad qilganmiz. Bizning onlayn platformamiz o'qituvchilarni va hamkorlik guruhlarini birlashtirib, hamkorlik va rivojlanish asosida o'quv muhitini yaratmoqda. Ilhom berishni xohlagan o'qituvchi yoki loyiha jamoasini qidirayotgan mutaxassis bo'lishingiz mumkin; Academyx, siz uchun eng yaxshi yechim. Birgalikda ta'limning kelajagini shakllantirmoqdamiz!",
+  academyCard1Header: "STEM",
+  academyCard2Header: "Diqqat",
+  academyCard3Header: "Sinfni boshqarish",
+  academyCard4Header: "Aloqa",
+  academyCard5Header: "Zihin xaritasi",
+  academyCard6Header: "Yuqori aql",
+  academyCard7Header: "Faol o'qitish usuli",
+  academyCard8Header: "O'qish uslublari",
+  academyCard1Text:
+    "Talabalarga fan, texnologiya, muhandislik va matematikada yetakchilik qilish imkoniyatlarini taqdim eting.",
+  academyCard2Text:
+    "Turli sohalardagi mutaxassis o'qituvchilar bilan hamkorlik qilib, o'qish tajribalarini shaxsiylashtiring.",
+  academyCard3Text:
+    "O'qituvchilar va mentorlar sinfni boshqarish bo'yicha foydali usullarni taqdim etadi.",
+  academyCard4Text:
+    "Talabalar bilan kuchli aloqa o'rnatish orqali o'qish tajribalarini yanada samaraliroq qiling.",
+  academyCard5Text:
+    "Talabalarga darslarni yanada samarali o'rganishlari uchun zihin xaritalarini yarating.",
+  academyCard6Text:
+    "Yuqori aqlga ega talabalarning qobiliyatlarini aniqlang va ularni yanada rivojlangan dasturlar bilan yo'naltiring.",
+  academyCard7Text:
+    "Faol o'qitish metodlari yordamida talabalarning e'tiborini torting va ularni samaraliroq o'qitish.",
+  academyCard8Text:
+    "Turli o'qish uslublarini tushunib, o'qitish uslublaringizni ularga mos ravishda sozlang.",
+
+  //kosmosx
+  kosmosxHeader: "Kosmosx Haqida",
+  kosmosxDesc:
+    "Kosmosx, universitetga ariza berayotgan talabalarga akademik yo'l-yo'riq, maslahat xizmatlari va ta'lim imkoniyatlarini taqdim etadi. Biz Turkiya kampusimizda minglab talabalarga yo'l-yo'riq ko'rsatishdan faxrlanamiz. Biz bilan birga talabalar eng yaxshi ta'lim ko'magini olishlari va qabul jarayonida muhim chegirmalardan foydalana olishadi.",
+
+  kosmosxCard1Header: "Kosmik Lager",
+  kosmosxCard2Header: "Kosmik Laboratoriyalar",
+  kosmosxCard3Header: "Faoliyatlar",
+
+  kosmosxCard1Text:
+    "Kosmosx, talabalarga universitetga ariza berish va ro'yxatdan o'tish jarayonlarida yordam beradi. Bizning mutaxassis maslahatchilarimiz bilan muvaffaqiyatga qadam qo'ying.",
+  kosmosxCard2Text:
+    "Kosmosx, talabalarga turli sohalarda rivojlanish imkoniyatlarini taqdim etadigan zamonaviy laboratoriyalar va amaliyot maydonchalarini taqdim etadi.",
+  kosmosxCard3Text:
+    "Biz ta'lim va ilmiy rivojlanishni qo'llab-quvvatlovchi turli seminarlar va tadbirlar tashkil etamiz.",
+  kosmosxCard4Text:
+    "Texnologiya va innovatsiyalar sohasida yetakchi bo'lishni istagan talabalar uchun tadbirlar va musobaqalar o'tkazamiz.",
 };

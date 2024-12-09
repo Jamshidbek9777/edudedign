@@ -6,6 +6,7 @@ import Partner5 from "/img/partner5.png";
 import Partner6 from "/img/partner6.webp";
 import Partner7 from "/img/partner7.svg";
 import Partner8 from "/img/partner8.png";
+import Partner9 from "/img/partner9.png";
 
 export default function LogoCarousel() {
   const logos = [
@@ -17,6 +18,7 @@ export default function LogoCarousel() {
     { src: Partner6, alt: "" },
     { src: Partner7, alt: "" },
     { src: Partner8, alt: "" },
+    { src: Partner9, alt: "" },
   ];
 
   return (
@@ -24,7 +26,7 @@ export default function LogoCarousel() {
       <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         {logos.map((logo, index) => (
           <li key={index}>
-            <img src={logo.src} alt={logo.alt} className="w-36" />
+            <img src={logo.src} alt={logo.alt} className="w-36 p-5" />
           </li>
         ))}
       </ul>
@@ -34,7 +36,7 @@ export default function LogoCarousel() {
       >
         {logos.map((logo, index) => (
           <li key={index}>
-            <img src={logo.src} alt={logo.alt} className="w-36" />
+            <img src={logo.src} alt={logo.alt} className="w-36 p-5" />
           </li>
         ))}
       </ul>

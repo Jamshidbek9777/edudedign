@@ -114,17 +114,17 @@ export const tr = {
     "Bilim, teknoloji, mühendislik ve matematik alanlarında yenilik ve keşif için bir alan. Yaratıcılığı ve problem çözme becerilerini geliştirmek için en son araçlarla donatılmış.",
 
   //card2
-  labsCard2Header: "Zihinsel Oyunlar",
+  labsCard2Header: "Zeka Oyunlar",
   labsCard2Text:
     "Bilişsel becerileri geliştirmek ve problem çözme yeteneklerini artırmak için tasarlanmış zihinsel egzersizlerle eğlenceli ve etkileşimli bir şekilde meşgul olun.",
 
   //card3
-  labsCard3Header: "Havacılık Laboratuvarı",
+  labsCard3Header: "Uzay ve Havacılık Laboratuvarı",
   labsCard3Text:
     "İleri teknoloji ekipmanlar ve simülasyonlarla havacılık ve uzay keşfi dünyasına dalın.",
 
   //card4
-  labsCard4Header: "Enerji İnovasyonları",
+  labsCard4Header: "Enerji taboratuvarı",
   labsCard4Text:
     "Yenilenebilir enerji kaynakları, akıllı şebekeler ve enerjinin geleceğini şekillendiren yenilikçi teknolojileri öğrenin.",
 
@@ -134,7 +134,7 @@ export const tr = {
     "Dinamik bir ortamda devreler, robotik ve mikrodenetleyici programlama ile pratik deneyim.",
 
   //card6
-  labsCard6Header: "Tasarım Uygulamaları",
+  labsCard6Header: "Tasarım Laboratuvarı",
   labsCard6Text:
     "Yaratıcı tasarım fikirlerini hayata geçirmek için yaratıcı yazılım araçlarını ve tekniklerini keşfedin.",
 
@@ -149,4 +149,60 @@ export const tr = {
   labelPhone: "Telefon",
   labelEmail: "E-posta",
   labelMessage: "Mesaj",
+
+  //advantages
+  advHeader: "Eduagencynun avantajları",
+  advCard1: "Uluslararası Güçlü İş Birliği Ağı",
+  advCard2: "Sosyal Sorumluluk Projeleri ile Topluma Katkı",
+  advCard3: "Eğitime Güçlü Destek",
+  advCard4: "Ufuk Açıcı Programlar",
+  advCard5: "Exclusive Hizmetler",
+  advCard6: "İnovasyon ve Yenilikçilik",
+
+  //academyx
+  academyHeader: "Academyx'e Hoş Geldiniz",
+  academyDesc:
+    "Academyx olarak, eğitimi dönüştürmeyi hedefliyoruz. Çevrimiçi platformumuz, öğretmenleri ve iş birliği gruplarını bir araya getirerek iş birliği ve gelişim odaklı bir öğrenme ortamı oluşturuyor. İlham vermek isteyen bir öğretmen veya proje ekibi arayan bir profesyonel olabilirsiniz; Academyx, sizin için en iyi çözüm. Birlikte eğitimin geleceğini şekillendiriyoruz!",
+  academyCard1Header: "STEM",
+  academyCard2Header: "Dikkat",
+  academyCard3Header: "Sınıf yönetimi",
+  academyCard4Header: "İletişim",
+  academyCard5Header: "Zihin haritası",
+  academyCard6Header: "Yüksek zeka",
+  academyCard7Header: "Aktif öğrenme yöntemi",
+  academyCard8Header: "Öğrenme stilleri",
+  academyCard1Text:
+    "Öğrencilere bilim, teknoloji, mühendislik ve matematik alanlarında liderlik yaparak öğrenim fırsatları sunun.",
+  academyCard2Text:
+    "Farklı alanlardaki uzman öğretmenlerle iş birliği yaparak öğrenim deneyimlerini özelleştirin.",
+  academyCard3Text:
+    "Öğretmenler ve mentorlar, sınıf yönetimi konusunda birbirinden faydalı tekniklerle destek sunuyor.",
+  academyCard4Text:
+    "Öğrencilerle güçlü bir iletişim kurarak öğrenme deneyimlerini daha verimli hale getirin.",
+  academyCard5Text:
+    "Öğrencilerin dersleri daha etkili öğrenebilmesi için zihin haritaları oluşturun.",
+  academyCard6Text:
+    "Öğrencilerin üstün zekâlarını keşfedin ve onları daha gelişmişprogramlarla yönlendirin.",
+  academyCard7Text:
+    " Aktif talim metotları ile öğrencilerin ilgisini çekin ve onları  daha etkin bir şekilde eğitin.",
+  academyCard8Text:
+    "Farklı öğrenme stillerini tanıyın ve öğretim yöntemlerinizi buna göre uyarlayın.",
+
+  //kosmosx
+  kosmosxHeader: "Kosmosx Hakkında",
+  kosmosxDesc:
+    "Kosmosx, üniversiteye başvuran öğrencilere akademik rehberlik, danışmanlık hizmetleri ve eğitim fırsatları sunar. Türkiye Kampüsü'nde binlerce öğrenciye rehberlik etmenin gururunu yaşıyoruz. Bizimle birlikte öğrenciler en iyi eğitim desteğini alırken, kabul işlemleri sırasında önemli indirimlerden faydalanabilirler.",
+
+  kosmosxCard1Header: "Uzay Kampi",
+  kosmosxCard2Header: "Kosmik Labs",
+  kosmosxCard3Header: "Faaliyetler",
+
+  kosmosxCard1Text:
+    "Kosmosx, öğrencilere üniversite başvurularında ve kayıt işlemlerinde yardımcı olur. Uzman rehberlerimizle başarıya adım atın.",
+  kosmosxCard2Text:
+    "Kosmosx, öğrenciler için farklı alanlarda gelişim fırsatları sunan modern laboratuvar ve uygulama alanları sağlar.",
+  kosmosxCard3Text:
+    "Eğitim ve bilimsel gelişmeleri destekleyen çeşitli seminer ve etkinlikler düzenliyoruz.",
+  kosmosxCard4Text:
+    "Teknoloji ve inovasyon dünyasında lider olmayı hedefleyen öğrencilere yönelik etkinlikler ve yarışmalar düzenliyoruz",
 };
