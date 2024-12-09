@@ -67,14 +67,15 @@ const CosmicServices = () => {
                 alırken, kabul işlemleri sırasında önemli indirimlerden
                 faydalanabilirler.
               </p>
-              <Button
-                color="primary"
-                className="mt-5"
-                endContent={<FiArrowRightCircle />}
-                href="/website"
-              >
-                Websitemizi Ziyaret Edin
-              </Button>
+              <a href="https://kosmosx.uz">
+                <Button
+                  color="primary"
+                  className="mt-5"
+                  endContent={<FiArrowRightCircle />}
+                >
+                  Websitemizi Ziyaret Edin
+                </Button>
+              </a>
             </div>
             <div className="">
               <img

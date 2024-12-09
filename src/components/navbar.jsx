@@ -156,7 +156,7 @@ const Navbar = () => {
               className="h-8 md:h-12 object-contain cursor-pointer"
             />
           </div>
-          <li>
+          <li onClick={toggleMenu}>
             <Link
               to={"/about"}
               className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
@@ -164,7 +164,7 @@ const Navbar = () => {
               {getText("navbar4")}
             </Link>
           </li>
-          <li>
+          <li onClick={toggleMenu}>
             <Link
               to={"/edu-design"}
               className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
@@ -172,7 +172,7 @@ const Navbar = () => {
               {getText("navbar6")}
             </Link>
           </li>{" "}
-          <li>
+          <li onClick={toggleMenu}>
             <Link
               to={"/teaching-tech"}
               className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
@@ -180,7 +180,7 @@ const Navbar = () => {
               {getText("navbar1")}
             </Link>
           </li>{" "}
-          <li>
+          <li onClick={toggleMenu}>
             <Link
               to={"/labaratories"}
               className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
@@ -188,7 +188,7 @@ const Navbar = () => {
               {getText("navbar2")}
             </Link>
           </li>{" "}
-          <li>
+          <li onClick={toggleMenu}>
             <Link
               to={"/academy"}
               className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
@@ -196,26 +196,26 @@ const Navbar = () => {
               AcademyX
             </Link>
           </li>{" "}
-          <li>
+          <li onClick={toggleMenu}>
             <Link className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10">
               {getText("navbar3")}
             </Link>
           </li>
-          <li>
+          <li onClick={toggleMenu}>
             <Link
               to={"/cosmic-services"}
               className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
             >
               KosmosX
             </Link>
-            <li>
+            <li onClick={toggleMenu}>
               <Link
                 to={"/transfer"}
                 className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#3089dd] bg-opacity-10"
               >
                 {getText("navbar5")}
               </Link>
-            </li>{" "}
+            </li>
           </li>
         </div>
       </div>
