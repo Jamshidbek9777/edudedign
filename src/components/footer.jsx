@@ -26,11 +26,11 @@ const Footer = () => {
           <div className="flex justify-center items-center">
             <ul className="flex gap-8 text-lg">
               <li className="cursor-pointer hover:text-blue-600 transition duration-300 font-semibold text-sm sm:font-bold sm:text-lg ">
-                <a href="/abouts">{getText("navbar4")}</a>
+                <a href="/about">{getText("navbar4")}</a>
               </li>
 
               <li className="cursor-pointer hover:text-blue-600 transition duration-300 font-semibold text-sm sm:font-bold sm:text-lg">
-                {getText("navbar5")}
+                <a href="/contact">{getText("navbar5")}</a>
               </li>
             </ul>
           </div>
