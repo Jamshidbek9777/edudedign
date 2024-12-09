@@ -5,14 +5,14 @@ export const tr = {
   navbar3: "Transfer",
   navbar4: "Hakkımızda",
   navbar5: "İletişim",
-  navbar6: "Uzman transferi",
+  navbar6: "Eğitim tasarımı",
 
   //sliders
   slider1Header: "Eğitim teknolojileri",
   slider2Header: "Kosmosx",
   slider3Header: "Laboratuvarlar",
   slider4Header: "AcademyX",
-  slider5Header: "Ö",
+  slider5Header: "Uzman Transferi",
 
   slider1Desc:
     "Becerilerinizi geliştirmek için geniş bir kaynak yelpazesinden bilgi edinebilirsiniz.",
@@ -66,7 +66,7 @@ export const tr = {
     "Her kurumun farklı ihtiyaçlarına özel çözümler sunuyor ve eğitimde sürdürülebilir başarı için rehberlik ediyoruz. Birlikte daha güçlü bir eğitim geleceği inşa etmek için bizimle iletişime geçin!",
 
   //transfer page
-  transferHeader: "İki Ülke Arasında Eğitim Köprüsü",
+  transferHeader: "Uzman Transferi",
   transferDesc:
     "EduAgency olarak, Özbekistan ve Türkiye arasında güçlü bir eğitim köprüsü kurarak iki ülkenin kültürel bağlarını ve   akademik potansiyelini bir araya getiriyoruz. Uzman ekibimiz ve  yıllara dayanan deneyimimizle öğrenci transferi ve eğitim uzmanı değişiminde profesyonel hizmetler sunuyoruz.",
 

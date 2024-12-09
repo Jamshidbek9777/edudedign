@@ -10,7 +10,7 @@ export const uz = {
   slider2Header: "Kosmosx",
   slider3Header: "Labaratories",
   slider4Header: "AcademyX",
-  slider5Header: "Ekspert transferi",
+  slider5Header: "Expert transferi",
 
   slider1Desc:
     "Ko‘nikmalaringizni rivojlantirish uchun turli manbalardan bilim olishingiz mumkin.",
@@ -66,7 +66,7 @@ export const uz = {
     "Biz har bir muassasaning turli ehtiyojlari uchun maxsus echimlarni taklif qilamiz va ta'limda barqaror muvaffaqiyatga erishishingizga yordam beramiz. Kuchli ta'lim kelajagini birgalikda qurish uchun biz bilan bog'laning!",
 
   // Transfer sahifasi
-  transferHeader: "Ikki Mamlakat O'rtasida Ta'lim Ko'prigi",
+  transferHeader: "Expert transferi",
   transferDesc:
     "EduAgency sifatida biz O‘zbekiston va Turkiya o‘rtasida kuchli ta’lim ko‘prigini barpo etib, ikki mamlakatning madaniy aloqalari va akademik salohiyatini birlashtiramiz. Tajribali jamoamiz va ko‘p yillik tajribamiz bilan talabalar transferi va ta’lim mutaxassislari almashinuvida professional xizmatlar taqdim etamiz.",
 

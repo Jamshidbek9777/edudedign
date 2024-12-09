@@ -64,7 +64,7 @@ export const en = {
     "We offer special solutions to the different needs of each institution and guide you for sustainable success in education. Contact us to build a stronger educational future together!",
 
   // Transfer page
-  transferHeader: "An Educational Bridge Between Two Countries",
+  transferHeader: "Expert transfer",
   transferDesc:
     "As EduAgency, we establish a strong educational bridge between Uzbekistan and Turkey, bringing together the cultural ties and academic potential of both countries. With our expert team and years of experience, we provide professional services in student transfers and education specialist exchanges.",
 
