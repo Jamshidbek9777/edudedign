@@ -4,6 +4,7 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa6";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
+import { FaPhoneSquareAlt, FaTelegram } from "react-icons/fa";
 
 const Footer = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -18,11 +19,13 @@ const Footer = () => {
       <Wrapper>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="flex justify-center lg:justify-start">
-            <img
-              src="/img/logo.png"
-              alt="Logo"
-              className="h-16 object-contain cursor-pointer"
-            />
+            <a href="/">
+              <img
+                src="/img/logo.png"
+                alt="Logo"
+                className="h-16 object-contain cursor-pointer"
+              />
+            </a>
           </div>
 
           <div className="flex justify-center items-center">
@@ -38,22 +41,30 @@ const Footer = () => {
           </div>
 
           <div className="flex justify-center gap-6 items-center">
-            <BiLogoInstagramAlt
-              size={32}
-              className="cursor-pointer hover:text-blue-700 transition duration-300"
-            />
-            <FaLinkedin
-              size={32}
-              className="cursor-pointer hover:text-blue-600 transition duration-300"
-            />
-            <FaYoutube
-              size={32}
-              className="cursor-pointer hover:text-red-600 transition duration-300"
-            />
-            <FaFacebook
-              size={32}
-              className="cursor-pointer hover:text-pink-500 transition duration-300"
-            />
+            <a href="https://www.instagram.com/eduagencyuz/">
+              <BiLogoInstagramAlt
+                size={32}
+                className="cursor-pointer hover:text-red-700 transition duration-300"
+              />
+            </a>
+            <a href="https://t.me/eduagency_uz">
+              <FaTelegram
+                size={32}
+                className="cursor-pointer hover:text-blue-600 transition duration-300"
+              />
+            </a>
+            <a href="tel:+998334691101">
+              <FaPhoneSquareAlt
+                size={32}
+                className="cursor-pointer hover:text-green-600 transition duration-300"
+              />
+            </a>
+            <a href="https://facebook.com/eduagency.uz">
+              <FaFacebook
+                size={32}
+                className="cursor-pointer hover:text-blue-700 transition duration-300"
+              />
+            </a>
           </div>
         </div>
         <div className="text-center mt-6 text-sm text-gray-600">

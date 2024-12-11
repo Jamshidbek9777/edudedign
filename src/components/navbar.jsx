@@ -2,7 +2,13 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { BiLogoInstagramAlt } from "react-icons/bi";
-import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaLinkedin,
+  FaPhoneSquareAlt,
+  FaTelegram,
+  FaYoutube,
+} from "react-icons/fa";
 import { LanguageContext } from "../context/language";
 import { getText } from "../languages";
 
@@ -29,10 +35,18 @@ const Navbar = () => {
     <div className="w-full fixed z-[999] my-2">
       <div className="flex  justify-between items-center px-4 md:px-6 py-2 text-gray-600 border-b bg-gray-100 mx-4 rounded-t-3xl">
         <div className="flex gap-4">
-          <BiLogoInstagramAlt className="cursor-pointer hover:text-blue-700 transition duration-300 text-xl" />
-          <FaLinkedin className="cursor-pointer hover:text-blue-600 transition duration-300 text-xl" />
-          <FaYoutube className="cursor-pointer hover:text-red-600 transition duration-300 text-xl" />
-          <FaFacebook className="cursor-pointer hover:text-pink-500 transition duration-300 text-xl" />
+          <a href="https://www.instagram.com/eduagencyuz/">
+            <BiLogoInstagramAlt className="cursor-pointer hover:text-red-700 transition duration-300 text-xl" />
+          </a>
+          <a href="https://t.me/eduagency_uz">
+            <FaTelegram className="cursor-pointer hover:text-blue-600 transition duration-300 text-xl" />
+          </a>
+          <a href="tel:+998334691101">
+            <FaPhoneSquareAlt className="cursor-pointer hover:text-green-600 transition duration-300 text-xl" />
+          </a>
+          <a href="https://facebook.com/eduagency.uz">
+            <FaFacebook className="cursor-pointer hover:text-blue-700 transition duration-300 text-xl" />
+          </a>
         </div>
         <div className="flex gap-4 items-center ">
           <div className="gap-5 hidden lg:flex">

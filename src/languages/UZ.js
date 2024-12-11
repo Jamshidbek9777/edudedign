@@ -6,11 +6,11 @@ export const uz = {
   navbar5: "Bog'lanish",
   navbar6: "Ta'lim dizayni",
 
-  slider1Header: "O'quv texnologiyalari",
+  slider1Header: "Ta'lim texnologiyalari",
   slider2Header: "Kosmosx",
-  slider3Header: "Labaratories",
+  slider3Header: "Labaratoriyalar",
   slider4Header: "AcademyX",
-  slider5Header: "Expert transferi",
+  slider5Header: "Mutaxassis transferi",
 
   slider1Desc:
     "Ko‘nikmalaringizni rivojlantirish uchun turli manbalardan bilim olishingiz mumkin.",
@@ -21,7 +21,7 @@ export const uz = {
   slider4Desc:
     "Academyx orqali ilg‘or texnologiyalar va resurslar taqdim etib, ko‘proq bilim va ko‘nikmalarga ega bo‘lishingiz uchun o‘quv jarayonlaringizni to‘liq qo‘llab-quvvatlashga tayyormiz.",
   slider5Desc:
-    "Talabalar transferi xizmatlariga moslashtirilgan professional maslahat olish uchun bizning havo sayohati veb-saytimizga tashrif buyuring.",
+    "Mutaxassis transferi xizmatlariga moslashtirilgan professional maslahatlarni oling",
   sliderButton: "Batafsil ma'lumot",
   //pages
   //edu-design
@@ -66,9 +66,9 @@ export const uz = {
     "Biz har bir muassasaning turli ehtiyojlari uchun maxsus echimlarni taklif qilamiz va ta'limda barqaror muvaffaqiyatga erishishingizga yordam beramiz. Kuchli ta'lim kelajagini birgalikda qurish uchun biz bilan bog'laning!",
 
   // Transfer sahifasi
-  transferHeader: "Expert transferi",
+  transferHeader: "Mutaxassis transferi",
   transferDesc:
-    "EduAgency sifatida biz O‘zbekiston va Turkiya o‘rtasida kuchli ta’lim ko‘prigini barpo etib, ikki mamlakatning madaniy aloqalari va akademik salohiyatini birlashtiramiz. Tajribali jamoamiz va ko‘p yillik tajribamiz bilan talabalar transferi va ta’lim mutaxassislari almashinuvida professional xizmatlar taqdim etamiz.",
+    "EduAgency sifatida biz O‘zbekiston va Turkiya o‘rtasida kuchli ta’lim ko‘prigini barpo etib, ikki mamlakatning madaniy aloqalari va akademik salohiyatini birlashtiramiz. Tajribali jamoamiz va ko‘p yillik tajribamiz bilan ta’lim mutaxassislari almashinuvida professional xizmatlar taqdim etamiz.",
 
   // 1-karta
   transferCard1Header:
@@ -153,7 +153,7 @@ export const uz = {
   labelMessage: "Xabar",
 
   //advantages
-  advHeader: "Eduagencyning afzalliklari",
+  advHeader: "Afzalliklar",
   advCard1: "Xalqaro Kuchli Hamkorlik Tarmog'i",
   advCard2: "Jamiyatga Hissa",
   advCard3: "Ta'limga Kuchli Qo'llab-quvvatlash",

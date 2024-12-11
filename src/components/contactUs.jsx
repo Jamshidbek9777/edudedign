@@ -128,7 +128,7 @@ const ContactUs = () => {
               color="primary"
               className="w-full"
             >
-              Submit
+              {getText("submitButton")}
             </Button>
           </form>
         </div>

@@ -21,7 +21,7 @@ export const en = {
   slider4Desc:
     "We are fully prepared to support your learning journey by providing advanced technologies and resources through Academyx, helping you gain more knowledge and skills.",
   slider5Desc:
-    "Visit our air travel website to receive expert consultation tailored specifically for student transfer services.",
+    "Get professional advice tailored to your specialist transfer services",
   sliderButton: "Learn more",
   //pages
   //edu-design
@@ -66,7 +66,7 @@ export const en = {
   // Transfer page
   transferHeader: "Expert transfer",
   transferDesc:
-    "As EduAgency, we establish a strong educational bridge between Uzbekistan and Turkey, bringing together the cultural ties and academic potential of both countries. With our expert team and years of experience, we provide professional services in student transfers and education specialist exchanges.",
+    "As EduAgency, we build a strong educational bridge between Uzbekistan and Turkey, combining the cultural ties and academic potential of the two countries. With our experienced team and many years of experience, we provide professional services in the exchange of educational specialists.",
 
   // Card 1
   transferCard1Header:
@@ -151,7 +151,7 @@ export const en = {
   labelMessage: "Message",
 
   //advantages
-  advHeader: "Advantages of Eduagency",
+  advHeader: "Advantages",
   advCard1: "International Strong Collaboration Network",
   advCard2: "Contribution to Society through Social Responsibility Projects",
   advCard3: "Strong Support for Education",

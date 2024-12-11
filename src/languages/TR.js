@@ -22,8 +22,7 @@ export const tr = {
     "Tam olarak ihtiyaçlarınıza ve tercihleriniz doğrultusunda tasarlanmış laboratuvarlar oluşturmanızda size yardımcı olmak için buradayız.",
   slider4Desc:
     "Academyx aracılığıyla ileri teknolojiler ve kaynaklar sağlayarak, daha fazla bilgi ve beceri edinmenize yardımcı olmak için öğrenme yolculuğunuzu tamamen desteklemeye hazırız.",
-  slider5Desc:
-    "Öğrenci transfer hizmetleri için özel olarak hazırlanmış uzman danışmanlık almak için hava seyahati web sitemizi ziyaret edin.",
+  slider5Desc: "Uzman transfer hizmetlerinize özel profesyonel tavsiyeler alın",
   sliderButton: "Daha",
   //pages
   //edu-design
@@ -68,7 +67,7 @@ export const tr = {
   //transfer page
   transferHeader: "Uzman Transferi",
   transferDesc:
-    "EduAgency olarak, Özbekistan ve Türkiye arasında güçlü bir eğitim köprüsü kurarak iki ülkenin kültürel bağlarını ve   akademik potansiyelini bir araya getiriyoruz. Uzman ekibimiz ve  yıllara dayanan deneyimimizle öğrenci transferi ve eğitim uzmanı değişiminde profesyonel hizmetler sunuyoruz.",
+    "EduAgency olarak Özbekistan ile Türkiye arasında, iki ülkenin kültürel bağlarını ve akademik potansiyelini birleştirerek güçlü bir eğitim köprüsü kuruyoruz. Tecrübeli ekibimiz ve uzun yıllara dayanan tecrübemiz ile eğitim uzmanı değişiminde profesyonel hizmet vermekteyiz.",
 
   //card1
   transferCard1Header: "Türkiye’den Özbekistan’a Eğitim Uzmanı Transferi",
@@ -144,7 +143,7 @@ export const tr = {
   placeHolderPhone: "Telefon numarası",
   placeHolderEmail: "E-posta adresinizi girin",
   placeHolderText: "Mesajınızı buraya yazın",
-  submitButton: "Submit",
+  submitButton: "Göndermek",
 
   labelName: "Ad",
   labelPhone: "Telefon",
@@ -152,7 +151,7 @@ export const tr = {
   labelMessage: "Mesaj",
 
   //advantages
-  advHeader: "Eduagencynun avantajları",
+  advHeader: "Avantajlar",
   advCard1: "Uluslararası Güçlü İş Birliği Ağı",
   advCard2: "Sosyal Sorumluluk Projeleri ile Topluma Katkı",
   advCard3: "Eğitime Güçlü Destek",

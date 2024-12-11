@@ -33,7 +33,7 @@ const About = () => {
         className="min-h-screen"
       >
         <Wrapper>
-          <div className="pt-40 px-4 flex flex-col items-center">
+          <div className="pt-40 flex flex-col items-center">
             {/* About Us Section */}
             <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full max-w-6xl mb-12">
               <div className="flex-1">
