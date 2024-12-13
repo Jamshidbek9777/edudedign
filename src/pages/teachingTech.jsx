@@ -53,12 +53,11 @@ const TeachingTech = () => {
 
             <div
               data-aos="fade-up"
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10 "
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10"
             >
               {/* Card 1 */}
-
-              <a href="https://turkosoft.uz">
-                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <a href="/k12net">
+                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-full flex flex-col">
                   <div className="flex justify-center mb-4">
                     <img
                       src="/img/k12net.png"
@@ -69,15 +68,15 @@ const TeachingTech = () => {
                   <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
                     k12net
                   </h1>
-                  <p className="text-gray-600 text-center text-sm">
+                  <p className="text-gray-600 text-center text-sm flex-grow">
                     {getText("teachingTechCardText1")}
                   </p>
                 </div>
               </a>
 
               {/* Card 2 */}
-              <a href="https://turkosoft.uz">
-                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <a href="/okulaile">
+                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-full flex flex-col">
                   <div className="flex justify-center mb-4">
                     <img
                       src="/img/okulaile.png"
@@ -88,15 +87,15 @@ const TeachingTech = () => {
                   <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
                     Okulaile
                   </h1>
-                  <p className="text-gray-600 text-center text-sm">
+                  <p className="text-gray-600 text-center text-sm flex-grow">
                     {getText("teachingTechCardText2")}
                   </p>
                 </div>
               </a>
 
               {/* Card 3 */}
-              <a href="https://turkosoft.uz">
-                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <a href="/mental-up">
+                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-full flex flex-col">
                   <div className="flex justify-center mb-4">
                     <img
                       src="/img/mentalup.webp"
@@ -107,7 +106,7 @@ const TeachingTech = () => {
                   <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
                     Mentalup
                   </h1>
-                  <p className="text-gray-600 text-center text-sm">
+                  <p className="text-gray-600 text-center text-sm flex-grow">
                     {getText("teachingTechCardText3")}
                   </p>
                 </div>
@@ -115,7 +114,7 @@ const TeachingTech = () => {
 
               {/* Card 4 */}
               <a href="https://kosmosx.uz/#/online-platforms">
-                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-full flex flex-col">
                   <div className="flex justify-center mb-4">
                     <img
                       src="/img/futureast.png"
@@ -126,7 +125,7 @@ const TeachingTech = () => {
                   <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
                     Future astronaut
                   </h1>
-                  <p className="text-gray-600 text-center text-sm">
+                  <p className="text-gray-600 text-center text-sm flex-grow">
                     {getText("teachingTechCardText4")}
                   </p>
                 </div>

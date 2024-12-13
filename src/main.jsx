@@ -16,6 +16,9 @@ import Transfer from "./pages/transfer.jsx";
 import App from "./App.jsx";
 import "./index.css";
 import Contact from "./pages/contact.jsx";
+import K12net from "./pages/k12net.jsx";
+import OkulAile from "./pages/okulaile.jsx";
+import MentaulUp from "./pages/mentalup.jsx";
 
 const Root = () => {
   return (
@@ -34,6 +37,9 @@ const Root = () => {
               <Route path="/transfer" element={<Transfer />} />
               <Route path="/edu-design" element={<EducationDesign />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/k12net" element={<K12net />} />
+              <Route path="/okulaile" element={<OkulAile />} />
+              <Route path="/mental-up" element={<MentaulUp />} />
             </Routes>
           </BrowserRouter>
           <Footer />

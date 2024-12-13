@@ -2,13 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { BiLogoInstagramAlt } from "react-icons/bi";
-import {
-  FaFacebook,
-  FaLinkedin,
-  FaPhoneSquareAlt,
-  FaTelegram,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaFacebook, FaPhoneSquareAlt, FaTelegram } from "react-icons/fa";
 import { LanguageContext } from "../context/language";
 import { getText } from "../languages";
 

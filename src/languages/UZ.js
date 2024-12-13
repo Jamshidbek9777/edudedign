@@ -226,4 +226,40 @@ export const uz = {
     "Har bir qadamimizda ochiqlik va halollikni ta’minlaymiz, talabalarimiz va hamkorlarimiz bilan ishonchli aloqalar quramiz.",
   hakkimizdaCard4Text:
     "Biz madaniy aloqalarni mustahkamlashga intilamiz va talabalarimizga, o‘qituvchilarimizga hamda hamkorlarimizga yuqori darajadagi xizmat ko‘rsatamiz.",
+
+  //k12net
+  k12netDesc:
+    "K12NET is an enterprise student information system that allows all aspects of the learning environment to seamlessly coordinate their efforts. School administrators, staff, teachers, students, and parents can access our solution on a single enterprise, cloud or SaaS platform.",
+  k12Card1: "COURSE MANAGEMENT",
+  k12Card1: "SCHOOL CALENDAR",
+  k12Card1: "HOMEWORK ASSIGMENTS",
+  k12Card1: "STUDENT & TEACHER PORTALS",
+  k12Card1: "CLASS REGISTRATION",
+
+  //okulaile
+  okulaileDesc:
+    "With OkulAile, Kindergartens, Primary Schools, High Schools, Private Schools, Colleges, Private Education Courses, Study Centers, Art Centers and Rehabilitation Centers meet all their needs easily and quickly from mobile.",
+  okulaileCard1Header: "Okulaile for kindergardens",
+  okulaileCard1Header: "Okulaile for personalized schools",
+  okulaileCard1Header: "Okulaile for private education course",
+
+  okulaileCard1Text1: "Photo & video",
+  okulaileCard1Text2: "Nutrition, Activity, Sleep",
+  okulaileCard1Text3: "Taking medicine",
+  okulaileCard1Text4: "Annoucements, Monthly Bulletin",
+  okulaileCard1Text5: "Menu, Event calendar",
+  okulaileCard1Text6: "Messages, Notification",
+  okulaileCard1Text7: "Free tracking & Reminder",
+  okulaileCard1Text8: "Managing Multiple Schools",
+
+  okulaileCard2Text1: "Pre-registration (CRM)",
+  okulaileCard2Text1: "Measurment and Evaluation",
+  okulaileCard2Text1: "Attendence, TimeTable",
+  okulaileCard2Text1: "",
+  okulaileCard2Text1: "",
+  okulaileCard2Text1: "",
+  okulaileCard2Text1: "",
+  okulaileCard2Text1: "",
+  okulaileCard2Text1: "",
+  okulaileCard2Text1: "",
 };
