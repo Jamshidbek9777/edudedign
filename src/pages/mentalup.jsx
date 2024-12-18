@@ -41,21 +41,15 @@ const MentaulUp = () => {
             <div className="bg-white px-8 py-16 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
               <div className="flex-1">
                 <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                  {/* {getText("teachingTechHeader")} */}
-                  OkulAile
+                  Mental Up
                 </h1>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  {/* {getText("teachingTechDesc")} */}
-                  OkulAile ile Anaokulları, İlköğretim Okulları, Liseler, Özel
-                  Okullar, Kolejler, Özel Öğretim Kursları, Etüt Merkezleri,
-                  Sanat Merkezleri ve Rehabilitasyon Merkezleri bütün
-                  ihtiyaçlarını mobilden kolay ve hızlı bir şekilde
-                  gerçekleştirirler.
+                  {getText("mentalUpDesc")}
                 </p>
               </div>
               <div className="">
                 <img
-                  src="/img/okulaile.png"
+                  src="/img/mentalup.webp"
                   alt="About Us"
                   className="rounded-xl w-[450px]"
                 />
@@ -73,11 +67,10 @@ const MentaulUp = () => {
                   color="red"
                 />
                 <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  100+ BRAIN EXERCISES
+                  {getText("mentalUpCard1Header")}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Memory games, attention, focusing, analytical thinking, visual
-                  intelligence, and more... They're all on MentalUP!
+                  {getText("mentalUpCard1Text")}
                 </p>
               </div>
 
@@ -85,11 +78,10 @@ const MentaulUp = () => {
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
                 <FaRegCalendarAlt className="w-12 h-12 mb-4" color="#5c97f7" />
                 <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  BRAIN BOOSTER & WORKOUTS FOR KIDS
+                  {getText("mentalUpCard2Header")}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  One app for both! 20 minutes daily brain training and 7-minute
-                  home workouts for kids.
+                  {getText("mentalUpCard2Text")}
                 </p>
               </div>
 
@@ -97,10 +89,10 @@ const MentaulUp = () => {
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
                 <FaChildren className="w-12 h-12 mb-4" />
                 <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  FOR ALL CHILDREN
+                  {getText("mentalUpCard3Header")}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  MentalUP is suitable for all children regardless of age.
+                  {getText("mentalUpCard3Text")}
                 </p>
               </div>
 
@@ -108,11 +100,10 @@ const MentaulUp = () => {
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
                 <MdHealthAndSafety className="w-12 h-12 mb-4" color="green" />
                 <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  CHILD SAFE & NO ADS
+                  {getText("mentalUpCard4Header")}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  MentalUP doesn't contain ads, pop-ups, or inappropriate
-                  content. It's a safe and fun world for kids.
+                  {getText("mentalUpCard4Text")}
                 </p>
               </div>
 
@@ -120,11 +111,10 @@ const MentaulUp = () => {
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
                 <CgTrack className="w-12 h-12 mb-4" color="blue" />
                 <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  ADVANCED PERFORMANCE TRACKING
+                  {getText("mentalUpCard5Header")}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Get the bigger picture! Track your child's development with
-                  rich reporting modules and dashboards.
+                  {getText("mentalUpCard5Text")}
                 </p>
               </div>
 
@@ -132,10 +122,10 @@ const MentaulUp = () => {
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
                 <MdDevices className="w-12 h-12 mb-4" color="#e25cf7" />
                 <h3 className="text-lg font-bold text-gray-800 mb-2">
-                  ALWAYS WITH YOU
+                  {getText("mentalUpCard6Header")}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  MentalUP is on your smartphone, tablet, and PC.
+                  {getText("mentalUpCard6Text")}
                 </p>
               </div>
             </div>

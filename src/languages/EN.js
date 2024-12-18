@@ -224,4 +224,69 @@ export const en = {
     "We ensure openness and honesty at every step, building trustful relationships with our students and partners.",
   hakkimizdaCard4Text:
     "We strive to strengthen cultural ties and provide high-quality services to our students, teachers, and partners.",
+
+  //k12net
+  k12netDesc:
+    "K12NET is an enterprise student information system that allows all aspects of the learning environment to seamlessly coordinate their efforts. School administrators, staff, teachers, students, and parents can access our solution on a single enterprise, cloud or SaaS platform.",
+  k12Card1: "COURSE MANAGEMENT",
+  k12Card2: "SCHOOL CALENDAR",
+  k12Card3: "HOMEWORK ASSIGMENTS",
+  k12Card4: "STUDENT & TEACHER PORTALS",
+  k12Card5: "CLASS REGISTRATION",
+
+  //okulaile
+  okulaileDesc:
+    "With OkulAile, Kindergartens, Primary Schools, High Schools, Private Schools, Colleges, Private Education Courses, Study Centers, Art Centers and Rehabilitation Centers meet all their needs easily and quickly from mobile.",
+  okulaileCard1Header: "Okulaile for kindergardens",
+  okulaileCard2Header: "Okulaile for personalized schools",
+  okulaileCard3Header: "Okulaile for private education course",
+
+  okulaileCard1Text1: "Photo & video",
+  okulaileCard1Text2: "Nutrition, Activity, Sleep",
+  okulaileCard1Text3: "Taking medicine",
+  okulaileCard1Text4: "Annoucements, Monthly Bulletin",
+  okulaileCard1Text5: "Menu, Event calendar",
+  okulaileCard1Text6: "Messages, Notification",
+  okulaileCard1Text7: "Free tracking & Reminder",
+  okulaileCard1Text8: "Managing Multiple Schools",
+
+  okulaileCard2Text1: "Pre-registration (CRM)",
+  okulaileCard2Text2: "Measurment and Evaluation",
+  okulaileCard2Text3: "Attendence, TimeTable",
+  okulaileCard2Text4: "Assignments & Evaluations",
+  okulaileCard2Text5: "Online lessons",
+  okulaileCard2Text6: "Guidance",
+  okulaileCard2Text7: "Income-Expense",
+  okulaileCard2Text8: "Reports",
+
+  okulaileCard3Text1: "Customer Management, Student Registration",
+  okulaileCard3Text2: "Exams, Assessment and Evaluation",
+  okulaileCard3Text3: "Income - Expense",
+  okulaileCard3Text4: "Announcement, Messages",
+  okulaileCard3Text5: "Attendance, Timetable",
+  okulaileCard3Text6: "One-on-One Lesson Program",
+  okulaileCard3Text7: "Assignments & Evaluations  ",
+  okulaileCard3Text8: "Guidance",
+
+  //mentalUp
+  mentalUpDesc:
+    "MentalUP Educational Games For Kids. Your children are your future. Meet your children’s needs with MentalUP Brain  Training Games and help them to improve their intelligence and  discover their potential. Try now!",
+  mentalUpCard1Header: "100+ BRAIN EXERCISES",
+  mentalUpCard2Header: "BRAIN BOOSTER & WORKOUTS FOR KIDS",
+  mentalUpCard3Header: "FOR ALL CHILDREN",
+  mentalUpCard4Header: "CHILD SAFE & NO ADS",
+  mentalUpCard5Header: "ADVANCED PERFORMANCE TRACKING",
+  mentalUpCard6Header: "ALWAYS WITH YOU",
+
+  mentalUpCard1Text:
+    "Memory games, attention, focusing, analytical thinking, visual intelligence, and more... They're all on MentalUP!",
+
+  mentalUpCard2Text:
+    "One app for both! 20 minutes daily brain training and 7-minute home workouts for kids.",
+  mentalUpCard3Text: "MentalUP is suitable for all children regardless of age.",
+  mentalUpCard4Text:
+    "MentalUP doesn't contain ads, pop-ups, or inappropriate content. It's a safe and fun world for kids.",
+  mentalUpCard5Text:
+    "Get the bigger picture! Track your child's development with rich reporting modules and dashboards.",
+  mentalUpCard6Text: "MentalUP is on your smartphone, tablet, and PC.",
 };

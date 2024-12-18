@@ -2,7 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.ant-dropdown-arrow {
+  transform: rotate(180deg); /* Rotates the arrow icon */
+}
 * {
   margin: 0;
   padding: 0;

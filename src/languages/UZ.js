@@ -229,37 +229,68 @@ export const uz = {
 
   //k12net
   k12netDesc:
-    "K12NET is an enterprise student information system that allows all aspects of the learning environment to seamlessly coordinate their efforts. School administrators, staff, teachers, students, and parents can access our solution on a single enterprise, cloud or SaaS platform.",
-  k12Card1: "COURSE MANAGEMENT",
-  k12Card1: "SCHOOL CALENDAR",
-  k12Card1: "HOMEWORK ASSIGMENTS",
-  k12Card1: "STUDENT & TEACHER PORTALS",
-  k12Card1: "CLASS REGISTRATION",
+    "K12NET – bu ta’lim muhiti bilan bog‘liq barcha jihatlarni bir platformada muvofiqlashtirish imkonini beruvchi korporativ talaba ma'lumot tizimi. Maktab ma'murlari, xodimlari, o‘qituvchilar, o‘quvchilar va ota-onalar bitta korporativ, bulutli yoki SaaS platformada bizning yechimimizdan foydalanishlari mumkin.",
+  k12Card1: "KURS BOSHQARUVI",
+  k12Card2: "MAKTAB TAQVIMI",
+  k12Card3: "UYGA VAZIFALAR",
+  k12Card4: "O‘QUVCHI VA O‘QITUVCHI PORTALLARI",
+  k12Card5: "SINFLARGA RO‘YXATDAN O‘TISH",
 
   //okulaile
   okulaileDesc:
-    "With OkulAile, Kindergartens, Primary Schools, High Schools, Private Schools, Colleges, Private Education Courses, Study Centers, Art Centers and Rehabilitation Centers meet all their needs easily and quickly from mobile.",
-  okulaileCard1Header: "Okulaile for kindergardens",
-  okulaileCard1Header: "Okulaile for personalized schools",
-  okulaileCard1Header: "Okulaile for private education course",
+    "OkulAile bilan Bolalar bog‘chalari, Boshlang‘ich maktablar, O‘rta maktablar, Xususiy maktablar, Kollejlar, Xususiy ta’lim kurslari, O‘quv markazlari, San’at markazlari va Reabilitatsiya markazlari barcha ehtiyojlarini mobil platformada oson va tez bajarishlari mumkin.",
+  okulaileCard1Header: "Bolalar bog‘chalari uchun Okulaile",
+  okulaileCard2Header: "Shaxsiy maktablar uchun Okulaile",
+  okulaileCard3Header: "Xususiy ta’lim kurslari uchun Okulaile",
 
-  okulaileCard1Text1: "Photo & video",
-  okulaileCard1Text2: "Nutrition, Activity, Sleep",
-  okulaileCard1Text3: "Taking medicine",
-  okulaileCard1Text4: "Annoucements, Monthly Bulletin",
-  okulaileCard1Text5: "Menu, Event calendar",
-  okulaileCard1Text6: "Messages, Notification",
-  okulaileCard1Text7: "Free tracking & Reminder",
-  okulaileCard1Text8: "Managing Multiple Schools",
+  okulaileCard1Text1: "Foto va video",
+  okulaileCard1Text2: "Oziqlanish, Faoliyat, Uyqu",
+  okulaileCard1Text3: "Dori qabul qilish",
+  okulaileCard1Text4: "E’lonlar, Oylik byulleten",
+  okulaileCard1Text5: "Menyu, Tadbirlar taqvimi",
+  okulaileCard1Text6: "Xabarlar, Bildirishnomalar",
+  okulaileCard1Text7: "Bepul kuzatuv va Eslatmalar",
+  okulaileCard1Text8: "Bir nechta maktablarni boshqarish",
 
-  okulaileCard2Text1: "Pre-registration (CRM)",
-  okulaileCard2Text1: "Measurment and Evaluation",
-  okulaileCard2Text1: "Attendence, TimeTable",
-  okulaileCard2Text1: "",
-  okulaileCard2Text1: "",
-  okulaileCard2Text1: "",
-  okulaileCard2Text1: "",
-  okulaileCard2Text1: "",
-  okulaileCard2Text1: "",
-  okulaileCard2Text1: "",
+  okulaileCard2Text1: "Dastlabki ro‘yxatga olish (CRM)",
+  okulaileCard2Text2: "O‘lchov va Baholash",
+  okulaileCard2Text3: "Davomat, Dars jadvali",
+  okulaileCard2Text4: "Vazifalar va Baholash",
+  okulaileCard2Text5: "Onlayn darslar",
+  okulaileCard2Text6: "Yo‘riqnoma",
+  okulaileCard2Text7: "Daromad va Xarajat",
+  okulaileCard2Text8: "Hisobotlar",
+
+  okulaileCard3Text1: "Mijozlarni boshqarish, Talabalarni ro‘yxatga olish",
+  okulaileCard3Text2: "Imtihonlar, Baholash va Tahlil qilish",
+  okulaileCard3Text3: "Daromad - Xarajat",
+  okulaileCard3Text4: "E’lonlar, Xabarlar",
+  okulaileCard3Text5: "Davomat, Jadval",
+  okulaileCard3Text6: "Birga-bir dars dasturi",
+  okulaileCard3Text7: "Vazifalar va Baholash",
+  okulaileCard3Text8: "Yo‘riqnoma",
+
+  //mentalUp
+  mentalUpDesc:
+    "MentalUP Bolalar uchun Ta'limiy O‘yinlar. Bolalaringiz – kelajagingiz. MentalUP Aqliy Mashq O‘yinlari bilan bolalaringizning ehtiyojlarini qondiring, aqlini rivojlantirishga yordam bering va ularning salohiyatini kashf qiling. Hozir sinab ko‘ring!",
+  mentalUpCard1Header: "100+ MIYA MASHQLARI",
+  mentalUpCard2Header: "BOLALAR UCHUN MIYA MASHQLARI VA JISMONIY TARBIYA",
+  mentalUpCard3Header: "BARCHA BOLALAR UCHUN",
+  mentalUpCard4Header: "BOLALAR UCHUN XAVFSIZ VA REKLAMASIZ",
+  mentalUpCard5Header: "RIVOJLANISHNI ILG‘OR KUZATISH",
+  mentalUpCard6Header: "HAR DOIM SIZ BILAN",
+
+  mentalUpCard1Text:
+    "Xotira o‘yinlari, diqqat, e’tibor, tahliliy fikrlash, vizual aql va yana ko‘plab o‘yinlar... Bularning barchasi MentalUPda!",
+
+  mentalUpCard2Text:
+    "Bitta ilova bilan ikkala ehtiyojni qondiring! Har kuni 20 daqiqa aqliy mashqlar va 7 daqiqalik uy jismoniy mashqlari.",
+  mentalUpCard3Text:
+    "MentalUP har qanday yoshdagi barcha bolalar uchun mos keladi.",
+  mentalUpCard4Text:
+    "MentalUPda reklamalar, pop-uplar yoki nomunosib kontent mavjud emas. Bu bolalar uchun xavfsiz va qiziqarli dunyo.",
+  mentalUpCard5Text:
+    "Katta rasmni ko‘ring! Bolalaringizning rivojlanishini boy hisobot modullari va boshqaruv panellari bilan kuzating.",
+  mentalUpCard6Text:
+    "MentalUP sizning smartfon, planshet va kompyuteringizda mavjud.",
 };

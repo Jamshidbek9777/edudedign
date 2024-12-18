@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { LanguageProvider } from "./context/language.jsx";
 import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
-
+import React from "react";
 import Navbar from "./components/navbar.jsx";
 import About from "./pages/about.jsx";
 import Footer from "./components/footer.jsx";

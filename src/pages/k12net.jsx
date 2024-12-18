@@ -45,12 +45,7 @@ const K12net = () => {
                   K12net
                 </h1>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  {/* {getText("teachingTechDesc")} */}
-                  K12NET is an enterprise student information system that allows
-                  all aspects of the learning environment to seamlessly
-                  coordinate their efforts. School administrators, staff,
-                  teachers, students, and parents can access our solution on a
-                  single enterprise, cloud or SaaS platform.
+                  {getText("k12netDesc")}
                 </p>
               </div>
               <div className="">
@@ -71,14 +66,14 @@ const K12net = () => {
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
                 <PiStudentBold className="text-4xl text-[#e63f38] mb-4" />
                 <h1 className="text-xl font-semibold text-gray-800 mb-2">
-                  COURSE MANAGEMENT
+                  {getText("k12Card1")}
                 </h1>
               </div>
               {/* Card 2 */}
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
                 <FaRegCalendarCheck className="text-4xl text-[#e63f38] mb-4" />
                 <h1 className="text-xl font-semibold text-gray-800 mb-2">
-                  SCHOOL CALENDAR
+                  {getText("k12Card2")}
                 </h1>
               </div>
 
@@ -86,7 +81,7 @@ const K12net = () => {
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
                 <FiBookOpen className="text-4xl text-[#e63f38] mb-4" />
                 <h1 className="text-xl font-semibold text-gray-800 mb-2">
-                  HOMEWORK ASSIGMENTS
+                  {getText("k12Card3")}
                 </h1>
               </div>
 
@@ -94,7 +89,7 @@ const K12net = () => {
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
                 <MdOutlineHomeWork className="text-4xl text-[#e63f38] mb-4" />
                 <h1 className="text-xl font-semibold text-gray-800 mb-2">
-                  STUDENT & TEACHER PORTALS
+                  {getText("k12Card4")}
                 </h1>
               </div>
 
@@ -102,7 +97,7 @@ const K12net = () => {
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
                 <SiGoogleclassroom className="text-4xl text-[#e63f38] mb-4" />
                 <h1 className="text-xl font-semibold text-gray-800 mb-2">
-                  CLASS REGISTRATION
+                  {getText("k12Card5")}
                 </h1>
               </div>
             </div>

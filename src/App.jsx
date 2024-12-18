@@ -1,10 +1,9 @@
 import "./App.css";
+import React from "react";
 import Advantages from "./components/advantages";
 import { Carousel } from "./components/carousel";
 import ContactUs from "./components/contactUs";
-import Footer from "./components/footer";
 import LogoCarouselPage from "./components/partners";
-import WhoWeUs from "./components/whowe";
 
 function App() {
   return (

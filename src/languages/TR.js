@@ -225,4 +225,71 @@ export const tr = {
     "Her adımımızda açıklık ve dürüstlük sağlıyoruz, öğrencilerimiz ve iş ortaklarımızla güvenilir ilişkiler kuruyoruz.",
   hakkimizdaCard4Text:
     "Kültürel bağları güçlendirmeye çabalıyoruz ve öğrencilerimize, öğretmenlerimize ve iş ortaklarımıza yüksek kaliteli hizmet sunuyoruz.",
+
+  //k12net
+  k12netDesc:
+    "K12NET, öğrenim ortamının tüm yönlerinin sorunsuz bir şekilde koordine edilmesini sağlayan kurumsal bir öğrenci bilgi sistemidir. Okul yöneticileri, personel, öğretmenler, öğrenciler ve veliler, çözümümüze tek bir kurumsal, bulut veya SaaS platformunda erişebilir.",
+  k12Card1: "DERS YÖNETİMİ",
+  k12Card2: "OKUL TAKVİMİ",
+  k12Card3: "EV ÖDEVLERİ",
+  k12Card4: "ÖĞRENCİ VE ÖĞRETMEN PORTALLARI",
+  k12Card5: "SINIF KAYDI",
+
+  //okulaile
+  okulaileDesc:
+    "OkulAile ile Anaokulları, İlkokullar, Liseler, Özel Okullar, Kolejler, Özel Eğitim Kursları, Etüt Merkezleri, Sanat Merkezleri ve Rehabilitasyon Merkezleri tüm ihtiyaçlarını kolayca ve hızlı bir şekilde mobilden karşılayabilir.",
+  okulaileCard1Header: "Anaokulları için OkulAile",
+  okulaileCard2Header: "Kişiselleştirilmiş okullar için OkulAile",
+  okulaileCard3Header: "Özel eğitim kursları için OkulAile",
+
+  okulaileCard1Text1: "Fotoğraf ve video",
+  okulaileCard1Text2: "Beslenme, Aktivite, Uyku",
+  okulaileCard1Text3: "İlaç alma",
+  okulaileCard1Text4: "Duyurular, Aylık bülten",
+  okulaileCard1Text5: "Menü, Etkinlik takvimi",
+  okulaileCard1Text6: "Mesajlar, Bildirimler",
+  okulaileCard1Text7: "Ücretsiz takip ve Hatırlatıcı",
+  okulaileCard1Text8: "Birden fazla okul yönetimi",
+
+  okulaileCard2Text1: "Ön kayıt (CRM)",
+  okulaileCard2Text2: "Ölçme ve Değerlendirme",
+  okulaileCard2Text3: "Devamlılık, Ders Programı",
+  okulaileCard2Text4: "Ödevler ve Değerlendirmeler",
+  okulaileCard2Text5: "Çevrimiçi dersler",
+  okulaileCard2Text6: "Rehberlik",
+  okulaileCard2Text7: "Gelir-Gider",
+  okulaileCard2Text8: "Raporlar",
+
+  okulaileCard3Text1: "Müşteri Yönetimi, Öğrenci Kaydı",
+  okulaileCard3Text2: "Sınavlar, Değerlendirme ve Analiz",
+  okulaileCard3Text3: "Gelir - Gider",
+  okulaileCard3Text4: "Duyurular, Mesajlar",
+  okulaileCard3Text5: "Devamlılık, Ders Programı",
+  okulaileCard3Text6: "Bire bir ders programı",
+  okulaileCard3Text7: "Ödevler ve Değerlendirmeler",
+  okulaileCard3Text8: "Rehberlik",
+
+  //mentalUp
+  mentalUpDesc:
+    "MentalUP Çocuklar İçin Eğitici Oyunlar. Çocuklarınız geleceğinizdir. MentalUP Zeka Geliştirme Oyunları ile çocuklarınızın ihtiyaçlarını karşılayın, zekalarını geliştirmelerine yardımcı olun ve potansiyellerini keşfedin. Şimdi deneyin!",
+  mentalUpCard1Header: "100+ BEYİN EGZERSİZİ",
+  mentalUpCard2Header: "ÇOCUKLAR İÇİN BEYİN GELİŞTİRME VE ANTRENMAN",
+  mentalUpCard3Header: "TÜM ÇOCUKLAR İÇİN",
+  mentalUpCard4Header: "ÇOCUK GÜVENLİĞİ VE REKLAMSIZ",
+  mentalUpCard5Header: "İLERİ SEVİYE PERFORMANS TAKİBİ",
+  mentalUpCard6Header: "HER ZAMAN YANINIZDA",
+
+  mentalUpCard1Text:
+    "Hafıza oyunları, dikkat, odaklanma, analitik düşünme, görsel zeka ve daha fazlası... Hepsi MentalUP’ta!",
+
+  mentalUpCard2Text:
+    "Tek bir uygulama ile her şey! Günlük 20 dakikalık beyin egzersizleri ve çocuklar için 7 dakikalık ev antrenmanları.",
+  mentalUpCard3Text:
+    "MentalUP, yaştan bağımsız olarak tüm çocuklar için uygundur.",
+  mentalUpCard4Text:
+    "MentalUP, reklamlar, pop-up'lar veya uygunsuz içerik barındırmaz. Çocuklar için güvenli ve eğlenceli bir dünyadır.",
+  mentalUpCard5Text:
+    "Daha büyük resmi görün! Çocuğunuzun gelişimini zengin raporlama modülleri ve panelleriyle takip edin.",
+  mentalUpCard6Text:
+    "MentalUP, akıllı telefon, tablet ve bilgisayarınızda her zaman yanınızda.",
 };
