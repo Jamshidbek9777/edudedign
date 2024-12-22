@@ -37,7 +37,8 @@ export const Carousel = () => {
                         className="w-full h-[550px] object-cover rounded-2xl shadow-lg"
                     />
                     {/* Overlay Content */}
-                    <div className="absolute inset-0 bg-black rounded-2xl bg-opacity-50 flex flex-col justify-center items-center">
+                    <div
+                        className="absolute inset-0 bg-black rounded-2xl bg-opacity-50 flex flex-col justify-center items-center">
                         <h1 className="text-4xl font-bold mb-4 text-white">
                             Discover Amazing Content
                         </h1>
@@ -45,7 +46,7 @@ export const Carousel = () => {
                             Watch and explore high-quality videos with ease
                         </p>
                         <Button
-                            icon={<ArrowRight />}
+                            icon={<ArrowRight/>}
                             onPress={showModal}
                             auto
                             className="bg-blue-500 text-white hover:bg-blue-600"

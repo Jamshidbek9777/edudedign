@@ -1,166 +1,150 @@
 import React, { useContext } from "react";
-import { FaChalkboardTeacher, FaUserGraduate, FaUsers } from "react-icons/fa";
-import ContactUs from "../components/contactUs";
-import Wrapper from "../layout/wrapper";
-import { MdOutlineConnectWithoutContact } from "react-icons/md";
-import { SiMinds } from "react-icons/si";
-import { LuBrain } from "react-icons/lu";
-import { VscVmActive } from "react-icons/vsc";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
 import Helmet from "../components/helmet.jsx";
+import ContactUs from "../components/contactUs";
+import Wrapper from "../layout/wrapper";
+import { TbPlayerTrackNextFilled } from "react-icons/tb";
 
 const Interior = () => {
     const { selectedLanguage, selectedFlag, changeLanguage } =
         useContext(LanguageContext);
+
     return (
         <>
             <Helmet
                 title={getText("AboutPageTitle") || "AcademyX"}
-                description={getText("AboutPageDesc") || "Learn more about Academyx."}
+                description={getText("AboutPageDesc") || "Learn more about AcademyX."}
                 link="/academy"
                 keywords="about, EduAgency, Uzbekistan, education"
             />
             <div
                 style={{
-                    background:
-                        "transparent linear-gradient(180deg, #d5f0f7 0%, #ffffff 100%) 0% 0% no-repeat padding-box",
+                    background: "linear-gradient(180deg, #f0f4f8 0%, #ffffff 100%)",
                 }}
-                className="min-h-screen"
+                className="min-h-screen text-gray-900"
             >
-                <Wrapper>
-                    <div data-aos="fade-up" className="pt-40 flex flex-col items-center">
+                <div className="pt-40 w-full">
+                    <Wrapper>
                         {/* Hero Section */}
-                        <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
-                            <div className="flex-1">
-                                <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                                    {getText("academyHeader")}
-                                </h1>
-                                <p className="text-gray-700 text-lg leading-relaxed">
-                                    {getText("academyDesc")}
-                                </p>
-                            </div>
-                            <div className="">
-                                <img
-                                    src="/img/academypic.png"
-                                    alt="Academyx Hero"
-                                    className="rounded-xl w-[450px]"
-                                />
-                            </div>
-                        </div>
-
-                        {/* Services Section */}
                         <div
-                            data-aos="fade-up"
-                            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10"
+                            className="relative w-full h-[500px] flex items-center justify-center rounded-xl overflow-hidden shadow-lg"
+                            style={{
+                                backgroundImage: "url('/img/eduimg.avif')",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                            }}
                         >
-                            {/* STEM Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <FaChalkboardTeacher />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard1Header")}
-                                </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard1Text")}
-                                </p>
-                            </div>
+                            {/* Overlay */}
+                            <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
-                            {/* Dikkat Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <FaUserGraduate />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard2Header")}
+                            {/* Text Content */}
+                            <div className="relative z-10 text-center text-white px-4 max-w-4xl">
+                                <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">
+                                    The Right Partner for Your School Projects
                                 </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard2Text")}
-                                </p>
-                            </div>
-
-                            {/* Sinf Yo'netimi Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <FaUsers />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard3Header")}
-                                </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard3Text")}
-                                </p>
-                            </div>
-
-                            {/* Iletisim Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <MdOutlineConnectWithoutContact />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard4Header")}
-                                </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard4Text")}
-                                </p>
-                            </div>
-
-                            {/* Mind Map Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <SiMinds />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard5Header")}
-                                </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard5Text")}
-                                </p>
-                            </div>
-
-                            {/* Ustun Zekalari Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <LuBrain />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard6Header")}
-                                </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard6Text")}
-                                </p>
-                            </div>
-
-                            {/* Aktif Talim Metodi Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <VscVmActive />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard7Header")}
-                                </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard7Text")}
-                                </p>
-                            </div>
-
-                            {/* Öğrenme Stilleri Card */}
-                            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-                                <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">
-                                    <FaUsers />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                                    {getText("academyCard8Header")}
-                                </h1>
-                                <p className="text-gray-600 text-center text-sm">
-                                    {getText("academyCard8Text")}
+                                <p className="text-lg sm:text-xl leading-relaxed font-medium">
+                                    We create original and functional projects as a trusted solution partner to meet all
+                                    your educational needs.
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <ContactUs />
-                </Wrapper>
+
+                        {/* Timeline Section */}
+                        <div className="pt-20  lg:px-20">
+                            <h2 className="text-4xl font-extrabold text-center mb-8 text-gray-800">
+                                Interior Design and Furnishing
+                            </h2>
+                            <p className="text-center text-gray-600 mb-10">
+                                A timeline that adapts to your project while maintaining high-quality standards.
+                            </p>
+                            <div className="bg-white rounded-lg p-6 lg:p-10 shadow-md">
+                                <div className="grid grid-cols-1 md:grid-cols-6 gap-6 text-center">
+                                    {[
+                                        {step: "İhtiyaçların Belirlenmesi", time: "1-3 Hafta"},
+                                        {step: "Tasarım Geliştirme", time: "2-8 Hafta"},
+                                        {step: "Üretim Danışmanlığı", time: "2-8 Hafta"},
+                                        {step: "Proje Yönetimi", time: "8-12 Hafta"},
+                                        {step: "Kurulum", time: "8-12 Hafta"},
+                                        {step: "Destek", time: "Devamlı"},
+                                    ].map(({step, time}, idx) => (
+                                        <div key={idx} className="flex flex-col items-center">
+                                            <div
+                                                className="w-16 h-16 flex items-center justify-center bg-gradient-to-r from-red-400 to-red-600 text-white rounded-full mb-4 shadow-md">
+                                                <TbPlayerTrackNextFilled size={28}/>
+                                            </div>
+                                            <h3 className="text-lg font-semibold">{step}</h3>
+                                            <p className="text-gray-500 mt-2">{time}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Determining Needs Sections */}
+                        {[...Array(4)].map((_, idx) => (
+                            <div className="py-10  lg:px-20" key={idx}>
+                                <div
+                                    className="flex flex-col lg:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden">
+                                    {idx % 2 === 0 ? (
+                                        <>
+                                            <div className="w-full lg:w-1/2">
+                                                <img
+                                                    src="/img/eduimg.avif"
+                                                    alt="Determining Needs"
+                                                    className="w-full h-auto"
+                                                />
+                                            </div>
+                                            <div className="w-full lg:w-1/2 p-8">
+                                                <h2 className="text-3xl font-bold mb-4">
+                                                    Determining Needs
+                                                </h2>
+                                                <p className="text-gray-700 mb-4">
+                                                    Bring expertise to uncover needs, set goals, and plan project
+                                                    timing.
+                                                </p>
+                                                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                                                    <li>Vision and priorities</li>
+                                                    <li>Space requirements and building plans</li>
+                                                    <li>Budget and purchasing planning</li>
+                                                    <li>Field survey and furniture inventory</li>
+                                                </ul>
+                                            </div>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <div className="w-full lg:w-1/2 p-8">
+                                                <h2 className="text-3xl font-bold mb-4">
+                                                    Determining Needs
+                                                </h2>
+                                                <p className="text-gray-700 mb-4">
+                                                    Bring expertise to uncover needs, set goals, and plan project
+                                                    timing.
+                                                </p>
+                                                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                                                    <li>Vision and priorities</li>
+                                                    <li>Space requirements and building plans</li>
+                                                    <li>Budget and purchasing planning</li>
+                                                    <li>Field survey and furniture inventory</li>
+                                                </ul>
+                                            </div>
+                                            <div className="w-full lg:w-1/2">
+                                                <img
+                                                    src="/img/eduimg.avif"
+                                                    alt="Determining Needs"
+                                                    className="w-full h-auto"
+                                                />
+                                            </div>
+                                        </>
+                                    )}
+                                </div>
+                            </div>
+                        ))}
+
+                        {/* Contact Section */}
+                        <ContactUs/>
+                    </Wrapper>
+                </div>
             </div>
         </>
     );
