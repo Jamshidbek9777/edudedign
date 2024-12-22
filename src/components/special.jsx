@@ -9,29 +9,33 @@ const Special = () => {
   const services = [
     {
       id: 1,
-      title: "Interior Design and Furnishing",
+      title: "Anahtar Teslim Eğitim Kurumları",
       description:
-          "Enhance the look and functionality of school spaces with tailored interior design solutions.",
-      image: "/img/bg.webp", // Replace with actual image URL
+          "Okul ve kolej projeleri: Başından sonuna kadar tüm süreçleri biz yönetiyoruz.",
+      image: "/img/bg.webp",
+      link:"/interior"
     },
     {
       id: 2,
-      title: "Architectural Project Design",
+      title: "Modern Eğitim Tasarımı  ",
       description:
-          "Expert planning and design to create inspiring educational environments.",
-      image: "/img/bg.webp", // Replace with actual image URL
+          "İhtiyaca özel müfredat geliştirme ve öğretmen eğitimleri. " +
+          "Eğitim teknolojisi ve dijital araçların entegrasyonu.",
+      image: "/img/bg.webp",
+      link:"/interior"
     },
     {
       id: 3,
-      title: "Construction and Project Management",
+      title: "Mimari Çözümler ve İnşaat",
       description:
-          "Comprehensive management for school construction and renovation projects.",
+          "Eğitim binaları için yenilikçi ve sürdürülebilir tasarımlar.  ",
       image: "/img/bg.webp",// Replace with actual image URL
+      link:"/interior"
     },
   ];
 
   return (
-      <div className="bg-gray-50 py-12">
+      <div className="bg-gray-50 py-12" id={'special'}>
         <Wrapper>
           <div className="container mx-auto">
             {/* Title */}
@@ -56,9 +60,12 @@ const Special = () => {
                         {service.title}
                       </h2>
                       <p className="text-gray-600 mb-6">{service.description}</p>
-                      <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition-colors duration-300">
+                      <a href={service.link}>
+                      <button  className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition-colors duration-300">
                         Detailed Information
                       </button>
+                      </a>
+
                     </div>
                   </div>
               ))}

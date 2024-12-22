@@ -28,48 +28,7 @@ const Navbar = () => {
     setMenuOpen((prev) => !prev);
   };
 
-  const items = [
-    {
-      key: "1",
-      label: "Bogchalar",
-      children: [
-        { label: <Link to="/okulaile">Okulaile</Link>, key: "1-1" },
-        { label: <Link to="/mental-up">Mental Up</Link>, key: "1-2" },
-        { label: <Link to="https://kosmosx.uz/#/online-platforms">Future astronaut</Link>, key: "1-3" },
-        { label: <Link to="/labaratories">STEMLab</Link>, key: "1-4" },
-      ],
-    },
-    {
-      key: "2",
-      label: "Boshlangich maktablar",
-      children: [
-        { label: <Link to="/mental-up">Mental Up</Link>, key: "2-1" },
-        { label: <Link to="https://kosmosx.uz/#/online-platforms">Future astronaut</Link>, key: "2-2" },
-        { label: <Link to="/k12net">K12net</Link>, key: "2-3" },
-        { label: <Link to="/labaratories">STEMLab</Link>, key: "2-4" },
-        { label: <Link to="https://kosmosx.uz/#/trip-to-space">Uzay Kampi</Link>, key: "2-5" },
-      ],
-    },
-    {
-      key: "3",
-      label: "O'rta maktablar",
-      children: [
-        { label: <Link to="/mental-up">Mental Up</Link>, key: "3-1" },
-        { label: <Link to="/k12net">K12net</Link>, key: "3-2" },
-        { label: <Link to="/labaratories">STEMLab</Link>, key: "3-3" },
-        { label: <Link to="https://kosmosx.uz/#/trip-to-space">Uzay Kampi</Link>, key: "3-4" },
-      ],
-    },
-    {
-      key: "4",
-      label: "Yuqori maktablar",
-      children: [
-        { label: <Link to="/k12net">K12net</Link>, key: "4-1" },
-        { label: <Link to="https://kosmosx.uz/#/trip-to-space">Uzay Kampi</Link>, key: "4-2" },
-        { label: <Link to="/labaratories">STEMLab</Link>, key: "4-3" },
-      ],
-    },
-  ];
+
 
   return (
       <div className="w-full fixed z-[999] my-2">
@@ -134,29 +93,13 @@ const Navbar = () => {
               </div>
 
               <div className="hidden lg:flex  text-gray-700 text-sm text-center">
-                <a href="/edu-design" className="hover:text-red-500 transition text-base font-bold ">
-                  {/*{getText("navbar6")}*/}
-                  Project Xizmatlari
+                <a href="/#special" className="hover:text-red-500 transition text-base font-bold ">
+                  Xizmatlarimiz
                 </a>
-                <a href="/teachingTech" className="hover:text-red-500 transition text-base font-bold ml-3">
-                  {getText("navbar1")}
-                </a>
-
-                <a href="/labaratories" className="hover:text-red-500 transition text-base font-bold ml-3">
-                  {/*{getText("navbar2")}*/}
-                  Class Concepts
-                </a>
-                <a href="/academy" className="hover:text-red-500 transition text-base font-bold ml-3">
-                  {/*AcademyX*/}
-                  {/*About us*/}
+                <a href="/#class" className="hover:text-red-500 transition text-base font-bold ml-3">
+                Loyihalarimiz
                 </a>
 
-                <a href="/transfer" className="hover:text-red-500 transition text-base font-bold">
-                  {/*{getText("navbar3")}*/}
-                </a>
-                <a href="/cosmic-services" className="hover:text-red-500 transition text-base font-bold">
-
-                </a>
                 <a href="/about" className="hover:text-red-500 transition text-base font-bold ml-3">
                   {getText("navbar4")}
                 </a>
@@ -165,15 +108,6 @@ const Navbar = () => {
                 </a>
               </div>
             </div>
-            {/*<div className="hidden lg:flex">*/}
-            {/*  <Dropdown menu={{ items }}>*/}
-            {/*    <a onClick={(e) => e.preventDefault()}>*/}
-            {/*      <Button color={"primary"} variant={"shadow"}>*/}
-            {/*        Services*/}
-            {/*      </Button>*/}
-            {/*    </a>*/}
-            {/*  </Dropdown>*/}
-            {/*</div>*/}
           </div>
           <div className={`burger ${isMenuOpen ? "open" : ""} block lg:hidden`} onClick={toggleMenu}>
             <div className="w-[25px] h-[2px] rounded-full block duration-300 bg-[#050a41]"></div>
@@ -262,20 +196,7 @@ const Navbar = () => {
                 {getText("navbar5")}
               </Link>
             </li>
-            <div className="w-full">
-              <Dropdown
-                  trigger={'click'}
-                  menu={{
-                    items,
-                  }}
-              >
-                <a onClick={(e) => e.preventDefault()}>
-                  <Button className={''} color={'primary'} variant={'shadow'}>
-                    Services
-                  </Button>
-                </a>
-              </Dropdown>
-            </div>
+
           </div>
         </div>
       </div>

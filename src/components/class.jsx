@@ -8,38 +8,32 @@ const Class = () => {
     const services = [
         {
             id: 1,
-            title: "Interior Design and Furnishing",
+            title: "Fergana Uluslararası Okulu",
             description:
-                "Enhance the look and functionality of school spaces with tailored interior design solutions.",
-            image: "/img/bg.webp", // Replace with actual image URL
+                "Özel proje, modern mimari.",
+            image: "/img/bg.webp",
         },
         {
             id: 2,
-            title: "Architectural Project Design",
+            title: "Taşkent Eğitim Merkezi",
             description:
-                "Expert planning and design to create inspiring educational environments.",
-            image: "/img/bg.webp", // Replace with actual image URL
+                "Anahtar teslim başarı hikayesi.  ",
+            image: "/img/bg.webp",
         },
-        {
-            id: 3,
-            title: "Construction and Project Management",
-            description:
-                "Comprehensive management for school construction and renovation projects.",
-            image: "/img/bg.webp", // Replace with actual image URL
-        },
+
     ];
 
     return (
-        <div className="py-12 bg-gray-100">
+        <div className="py-12 bg-gray-100" id={'class'}>
             <Wrapper>
                 <div className="container mx-auto px-4">
                     {/* Title */}
                     <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
-                        Class Concepts
+                        Projelerimiz
                     </h1>
 
                     {/* Card Grid */}
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         {services.map((service) => (
                             <div
                                 key={service.id}
@@ -50,7 +44,8 @@ const Class = () => {
                                     alt={service.title}
                                     className="w-full h-48 object-cover opacity-80"
                                 />
-                                <div className="absolute top-0 left-0 w-full h-48 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
+                                <div
+                                    className="absolute top-0 left-0 w-full h-48 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
                                 <div className="p-6 relative">
                                     <h2 className="text-xl font-bold mb-3">
                                         {service.title}
@@ -58,13 +53,19 @@ const Class = () => {
                                     <p className="text-sm text-gray-200 mb-6">
                                         {service.description}
                                     </p>
-                                    <button className="bg-white text-indigo-600 px-4 py-2 rounded-full hover:bg-gray-200 transition-colors duration-300">
+                                    <button
+                                        className="bg-white text-indigo-600 px-4 py-2 rounded-full hover:bg-gray-200 transition-colors duration-300">
                                         Detailed Information
                                     </button>
                                 </div>
                             </div>
                         ))}
+
+
                     </div>
+                    <h1 className={'text-2xl w-full mt-10 text-center'}>
+                        Tamamlanan projelerden görseller ve kısa açıklamalarla kullanıcılar bilgilendirilir.
+                    </h1>
                 </div>
             </Wrapper>
         </div>

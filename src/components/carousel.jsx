@@ -13,7 +13,7 @@ import { useContext, useState } from "react";
 export const Carousel = () => {
     const { selectedLanguage } = useContext(LanguageContext);
     const [isModalVisible, setIsModalVisible] = useState(false);
-    const [videoSrc, setVideoSrc] = useState("https://www.youtube.com/embed/dQw4w9WgXcQ");
+    const [videoSrc, setVideoSrc] = useState("https://www.youtube.com/embed/d4Qbd-JagF8");
 
     const showModal = () => {
         setIsModalVisible(true);
@@ -23,7 +23,7 @@ export const Carousel = () => {
         setIsModalVisible(false);
         setVideoSrc("");
         // Restore the video source when the modal reopens
-        setTimeout(() => setVideoSrc("https://www.youtube.com/embed/dQw4w9WgXcQ"), 0);
+        setTimeout(() => setVideoSrc("https://www.youtube.com/embed/d4Qbd-JagF8"), 0);
     };
 
     return (

@@ -12,7 +12,9 @@
   font-family: "Figtree", sans-serif;
   list-style: none;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .burger {
   cursor: pointer;
   position: relative;
@@ -38,3 +40,4 @@
 .carousel-container {
   padding-top: 200px;
 }
+

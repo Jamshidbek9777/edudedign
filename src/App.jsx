@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import { Carousel } from "./components/carousel";
 import ContactUs from "./components/contactUs";
 import LogoCarouselPage from "./components/partners";
